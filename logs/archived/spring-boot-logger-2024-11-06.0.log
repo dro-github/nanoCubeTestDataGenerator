@@ -1,0 +1,333 @@
+2024-11-06 13:16:52,581 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 580 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-06 13:16:52,597 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-06 13:16:56,347 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-06 13:16:56,364 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-06 13:16:56,364 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-06 13:16:56,364 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-06 13:16:56,531 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-06 13:16:56,547 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3883 ms
+2024-11-06 13:16:56,631 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-06 13:17:00,381 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 1 metering points.
+2024-11-06 13:17:00,470 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-06 13:17:00,513 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 3 metering points.
+2024-11-06 13:17:00,562 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 4 metering points.
+2024-11-06 13:17:00,606 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 5 metering points.
+2024-11-06 13:17:00,657 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 6 metering points.
+2024-11-06 13:17:00,708 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 7 metering points.
+2024-11-06 13:17:00,767 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 8 metering points.
+2024-11-06 13:17:00,814 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 9 metering points.
+2024-11-06 13:17:00,862 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 10 metering points.
+2024-11-06 13:17:00,897 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 11 metering points.
+2024-11-06 13:17:00,964 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 12 metering points.
+2024-11-06 13:17:01,014 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 13 metering points.
+2024-11-06 13:17:01,064 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 14 metering points.
+2024-11-06 13:17:01,131 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 15 metering points.
+2024-11-06 13:17:01,185 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 16 metering points.
+2024-11-06 13:17:01,230 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 17 metering points.
+2024-11-06 13:17:01,298 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 18 metering points.
+2024-11-06 13:17:01,331 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 19 metering points.
+2024-11-06 13:17:01,397 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 20 metering points.
+2024-11-06 13:17:01,447 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 21 metering points.
+2024-11-06 13:17:01,497 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 22 metering points.
+2024-11-06 13:17:01,564 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 23 metering points.
+2024-11-06 13:17:01,614 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 24 metering points.
+2024-11-06 13:17:01,697 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 25 metering points.
+2024-11-06 13:17:01,731 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 26 metering points.
+2024-11-06 13:17:01,781 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 27 metering points.
+2024-11-06 13:17:01,831 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 28 metering points.
+2024-11-06 13:17:01,881 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 29 metering points.
+2024-11-06 13:17:01,931 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 30 metering points.
+2024-11-06 13:17:01,981 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 31 metering points.
+2024-11-06 13:17:02,047 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 32 metering points.
+2024-11-06 13:17:02,097 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 33 metering points.
+2024-11-06 13:17:02,148 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 34 metering points.
+2024-11-06 13:17:02,198 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 35 metering points.
+2024-11-06 13:17:02,247 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 36 metering points.
+2024-11-06 13:17:02,298 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 37 metering points.
+2024-11-06 13:17:02,347 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 38 metering points.
+2024-11-06 13:17:02,414 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 39 metering points.
+2024-11-06 13:17:02,464 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 40 metering points.
+2024-11-06 13:17:02,531 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 41 metering points.
+2024-11-06 13:17:02,582 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 42 metering points.
+2024-11-06 13:17:02,631 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 43 metering points.
+2024-11-06 13:17:02,698 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 44 metering points.
+2024-11-06 13:17:02,748 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 45 metering points.
+2024-11-06 13:17:02,798 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 46 metering points.
+2024-11-06 13:17:02,848 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 47 metering points.
+2024-11-06 13:17:02,897 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 48 metering points.
+2024-11-06 13:17:02,964 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 49 metering points.
+2024-11-06 13:17:03,014 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 50 metering points.
+2024-11-06 13:17:03,083 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 51 metering points.
+2024-11-06 13:17:03,131 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 52 metering points.
+2024-11-06 13:17:03,183 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 53 metering points.
+2024-11-06 13:17:03,231 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 54 metering points.
+2024-11-06 13:17:03,283 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 55 metering points.
+2024-11-06 13:17:03,330 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 56 metering points.
+2024-11-06 13:17:03,383 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 57 metering points.
+2024-11-06 13:17:03,414 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 58 metering points.
+2024-11-06 13:17:03,483 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 59 metering points.
+2024-11-06 13:17:03,531 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 60 metering points.
+2024-11-06 13:17:03,584 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 61 metering points.
+2024-11-06 13:17:03,630 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 62 metering points.
+2024-11-06 13:17:03,697 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 63 metering points.
+2024-11-06 13:17:03,747 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 64 metering points.
+2024-11-06 13:17:03,797 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 65 metering points.
+2024-11-06 13:17:03,864 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 66 metering points.
+2024-11-06 13:17:03,914 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 67 metering points.
+2024-11-06 13:17:03,964 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 68 metering points.
+2024-11-06 13:17:04,014 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 69 metering points.
+2024-11-06 13:17:04,084 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 70 metering points.
+2024-11-06 13:17:04,131 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 71 metering points.
+2024-11-06 13:17:04,180 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 72 metering points.
+2024-11-06 13:17:04,247 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 73 metering points.
+2024-11-06 13:17:04,285 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 74 metering points.
+2024-11-06 13:17:04,331 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 75 metering points.
+2024-11-06 13:17:04,385 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 76 metering points.
+2024-11-06 13:17:04,431 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 77 metering points.
+2024-11-06 13:17:04,497 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 78 metering points.
+2024-11-06 13:17:04,547 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 79 metering points.
+2024-11-06 13:17:04,598 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 80 metering points.
+2024-11-06 13:17:04,664 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 81 metering points.
+2024-11-06 13:17:04,731 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 82 metering points.
+2024-11-06 13:17:04,785 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 83 metering points.
+2024-11-06 13:17:04,831 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 84 metering points.
+2024-11-06 13:17:04,880 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 85 metering points.
+2024-11-06 13:17:04,931 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 86 metering points.
+2024-11-06 13:17:04,986 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 87 metering points.
+2024-11-06 13:17:05,047 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 88 metering points.
+2024-11-06 13:17:05,098 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 89 metering points.
+2024-11-06 13:17:05,164 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 90 metering points.
+2024-11-06 13:17:05,247 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 91 metering points.
+2024-11-06 13:17:05,297 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 92 metering points.
+2024-11-06 13:17:05,347 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 93 metering points.
+2024-11-06 13:17:05,414 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 94 metering points.
+2024-11-06 13:17:05,464 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 95 metering points.
+2024-11-06 13:17:05,514 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 96 metering points.
+2024-11-06 13:17:05,564 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 97 metering points.
+2024-11-06 13:17:05,614 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 98 metering points.
+2024-11-06 13:17:05,664 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 99 metering points.
+2024-11-06 13:17:05,714 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 100 metering points.
+2024-11-06 13:17:06,081 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-06 13:17:06,097 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 13:17:06,114 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 14.338 seconds (JVM running for 15.072)
+2024-11-06 13:17:06,662 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-06T12:00:00+01:00.
+2024-11-06 13:17:09,014 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:11,197 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:13,421 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:15,481 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:17,681 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:19,874 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:22,015 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:24,148 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:26,294 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:28,429 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:17:28,614 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730895448491_queenContAidonIndex.xml.
+2024-11-06 13:17:28,614 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-06T14:17:06+01:00.
+2024-11-06 13:17:28,614 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-06T13:00:00+01:00.
+2024-11-06 13:19:05,117 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 23884 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-06 13:19:05,117 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-06 13:19:08,481 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-06 13:19:08,490 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-06 13:19:08,490 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-06 13:19:08,490 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-06 13:19:08,637 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-06 13:19:08,637 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3474 ms
+2024-11-06 13:19:08,714 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-06 13:19:12,199 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 1 metering points.
+2024-11-06 13:19:12,247 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-06 13:19:12,281 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 3 metering points.
+2024-11-06 13:19:12,348 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 4 metering points.
+2024-11-06 13:19:12,398 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 5 metering points.
+2024-11-06 13:19:12,431 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 6 metering points.
+2024-11-06 13:19:12,497 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 7 metering points.
+2024-11-06 13:19:12,548 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 8 metering points.
+2024-11-06 13:19:12,581 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 9 metering points.
+2024-11-06 13:19:12,631 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 10 metering points.
+2024-11-06 13:19:12,681 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 11 metering points.
+2024-11-06 13:19:12,731 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 12 metering points.
+2024-11-06 13:19:12,798 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 13 metering points.
+2024-11-06 13:19:12,848 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 14 metering points.
+2024-11-06 13:19:12,899 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 15 metering points.
+2024-11-06 13:19:12,948 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 16 metering points.
+2024-11-06 13:19:12,999 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 17 metering points.
+2024-11-06 13:19:13,048 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 18 metering points.
+2024-11-06 13:19:13,100 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 19 metering points.
+2024-11-06 13:19:13,148 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 20 metering points.
+2024-11-06 13:19:13,200 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 21 metering points.
+2024-11-06 13:19:13,248 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 22 metering points.
+2024-11-06 13:19:13,300 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 23 metering points.
+2024-11-06 13:19:13,348 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 24 metering points.
+2024-11-06 13:19:13,400 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 25 metering points.
+2024-11-06 13:19:13,447 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 26 metering points.
+2024-11-06 13:19:13,501 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 27 metering points.
+2024-11-06 13:19:13,547 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 28 metering points.
+2024-11-06 13:19:13,597 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 29 metering points.
+2024-11-06 13:19:13,631 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 30 metering points.
+2024-11-06 13:19:13,681 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 31 metering points.
+2024-11-06 13:19:13,731 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 32 metering points.
+2024-11-06 13:19:13,780 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 33 metering points.
+2024-11-06 13:19:13,814 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 34 metering points.
+2024-11-06 13:19:13,864 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 35 metering points.
+2024-11-06 13:19:13,914 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 36 metering points.
+2024-11-06 13:19:13,948 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 37 metering points.
+2024-11-06 13:19:14,001 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 38 metering points.
+2024-11-06 13:19:14,048 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 39 metering points.
+2024-11-06 13:19:14,098 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 40 metering points.
+2024-11-06 13:19:14,148 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 41 metering points.
+2024-11-06 13:19:14,181 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 42 metering points.
+2024-11-06 13:19:14,231 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 43 metering points.
+2024-11-06 13:19:14,281 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 44 metering points.
+2024-11-06 13:19:14,331 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 45 metering points.
+2024-11-06 13:19:14,381 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 46 metering points.
+2024-11-06 13:19:14,431 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 47 metering points.
+2024-11-06 13:19:14,481 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 48 metering points.
+2024-11-06 13:19:14,531 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 49 metering points.
+2024-11-06 13:19:14,581 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 50 metering points.
+2024-11-06 13:19:14,631 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 51 metering points.
+2024-11-06 13:19:14,681 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 52 metering points.
+2024-11-06 13:19:14,714 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 53 metering points.
+2024-11-06 13:19:14,764 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 54 metering points.
+2024-11-06 13:19:14,815 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 55 metering points.
+2024-11-06 13:19:14,864 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 56 metering points.
+2024-11-06 13:19:14,915 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 57 metering points.
+2024-11-06 13:19:14,964 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 58 metering points.
+2024-11-06 13:19:15,015 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 59 metering points.
+2024-11-06 13:19:15,064 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 60 metering points.
+2024-11-06 13:19:15,114 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 61 metering points.
+2024-11-06 13:19:15,165 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 62 metering points.
+2024-11-06 13:19:15,230 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 63 metering points.
+2024-11-06 13:19:15,281 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 64 metering points.
+2024-11-06 13:19:15,331 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 65 metering points.
+2024-11-06 13:19:15,381 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 66 metering points.
+2024-11-06 13:19:15,431 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 67 metering points.
+2024-11-06 13:19:15,481 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 68 metering points.
+2024-11-06 13:19:15,531 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 69 metering points.
+2024-11-06 13:19:15,565 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 70 metering points.
+2024-11-06 13:19:15,614 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 71 metering points.
+2024-11-06 13:19:15,680 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 72 metering points.
+2024-11-06 13:19:15,714 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 73 metering points.
+2024-11-06 13:19:15,764 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 74 metering points.
+2024-11-06 13:19:15,815 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 75 metering points.
+2024-11-06 13:19:15,848 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 76 metering points.
+2024-11-06 13:19:15,905 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 77 metering points.
+2024-11-06 13:19:15,964 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 78 metering points.
+2024-11-06 13:19:16,005 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 79 metering points.
+2024-11-06 13:19:16,048 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 80 metering points.
+2024-11-06 13:19:16,098 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 81 metering points.
+2024-11-06 13:19:16,148 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 82 metering points.
+2024-11-06 13:19:16,198 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 83 metering points.
+2024-11-06 13:19:16,248 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 84 metering points.
+2024-11-06 13:19:16,281 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 85 metering points.
+2024-11-06 13:19:16,331 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 86 metering points.
+2024-11-06 13:19:16,381 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 87 metering points.
+2024-11-06 13:19:16,431 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 88 metering points.
+2024-11-06 13:19:16,481 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 89 metering points.
+2024-11-06 13:19:16,531 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 90 metering points.
+2024-11-06 13:19:16,564 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 91 metering points.
+2024-11-06 13:19:16,614 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 92 metering points.
+2024-11-06 13:19:16,681 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 93 metering points.
+2024-11-06 13:19:16,714 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 94 metering points.
+2024-11-06 13:19:16,765 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 95 metering points.
+2024-11-06 13:19:16,814 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 96 metering points.
+2024-11-06 13:19:16,864 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 97 metering points.
+2024-11-06 13:19:16,907 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 98 metering points.
+2024-11-06 13:19:16,948 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 99 metering points.
+2024-11-06 13:19:17,007 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 100 metering points.
+2024-11-06 13:19:17,381 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-06 13:19:17,414 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 13:19:17,431 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 12.999 seconds (JVM running for 13.758)
+2024-11-06 13:19:17,928 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-06T12:00:00+01:00.
+2024-11-06 13:19:20,166 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:22,335 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:24,495 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:26,614 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:28,714 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:30,845 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:32,989 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:35,052 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:37,215 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:39,348 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 13:19:39,495 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730895579381_queenContAidonIndex.xml.
+2024-11-06 13:19:39,495 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-06T14:19:17+01:00.
+2024-11-06 13:19:39,495 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-06T13:00:00+01:00.
+2024-11-06 14:52:21,618 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 26420 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-06 14:52:21,621 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-06 14:52:25,108 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-06 14:52:25,118 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-06 14:52:25,121 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-06 14:52:25,121 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-06 14:52:25,259 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-06 14:52:25,262 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3576 ms
+2024-11-06 14:52:25,335 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-06 14:52:43,159 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-06 14:52:43,496 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-06 14:52:43,528 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 14:52:43,542 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 22.59 seconds (JVM running for 23.225)
+2024-11-06 14:52:44,042 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-06T13:00:00+01:00.
+2024-11-06 14:52:44,379 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Downstream has no previous index.
+2024-11-06 14:52:44,380 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-06 14:52:44,428 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-06 14:52:44,429 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-06 14:52:44,498 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-06 14:52:44,499 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-06 14:52:44,546 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-06 14:52:44,547 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-06 14:52:46,240 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:52:48,383 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:52:50,530 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:52:52,603 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:52:54,665 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:52:56,644 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:52:57,052 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645720, for the current hour.
+2024-11-06 14:52:58,430 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:53:00,443 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:53:01,336 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-06 14:53:01,336 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-06 14:53:01,384 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-06 14:53:01,385 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-06 14:53:01,433 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-06 14:53:01,434 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-06 14:53:02,461 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:53:04,467 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 14:53:05,080 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730901184961_queenContAidonIndex.xml.
+2024-11-06 14:53:05,081 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-06T15:52:44+01:00.
+2024-11-06 14:53:05,081 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-06T14:00:00+01:00.
+2024-11-06 14:59:45,818 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 8648 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-06 14:59:45,823 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-06 14:59:49,418 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-06 14:59:49,427 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-06 14:59:49,427 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-06 14:59:49,431 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-06 14:59:49,573 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-06 14:59:49,576 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3682 ms
+2024-11-06 14:59:49,647 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-06 15:00:08,374 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-06 15:00:08,738 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-06 15:00:08,768 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 15:00:08,783 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 23.653 seconds (JVM running for 24.292)
+2024-11-06 15:00:09,289 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-06T14:00:00+01:00.
+2024-11-06 15:00:09,645 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-06 15:00:09,646 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-06 15:00:09,696 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-06 15:00:09,698 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-06 15:00:09,763 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-06 15:00:09,763 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-06 15:00:11,483 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:13,744 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:16,083 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:18,246 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:20,380 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:22,823 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:24,934 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:27,220 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:28,455 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-06 15:00:28,458 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-06 15:00:28,545 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-06 15:00:28,545 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-06 15:00:28,605 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-06 15:00:28,606 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-06 15:00:29,930 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:32,703 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-06 15:00:33,433 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730901633310_queenContAidonIndex.xml.
+2024-11-06 15:00:33,434 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-06T16:00:09+01:00.
+2024-11-06 15:00:33,434 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-06T15:00:00+01:00.

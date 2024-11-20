@@ -1,0 +1,3 @@
+        <series interval="%s" productName="%s" sourceRegister="%s" type="cumulative">
+%s
+        </series>

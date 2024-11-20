@@ -1,0 +1,1088 @@
+2024-11-07 12:23:07,522 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 18928 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 12:23:07,529 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 12:23:11,500 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 12:23:11,513 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:23:11,518 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 12:23:11,519 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 12:23:11,730 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 12:23:11,734 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4127 ms
+2024-11-07 12:23:11,824 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 12:23:30,921 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-07 12:23:31,336 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:23:31,366 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 12:23:31,383 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 24.694 seconds (JVM running for 25.395)
+2024-11-07 12:23:31,896 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T11:00:00+01:00.
+2024-11-07 12:23:32,368 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be importes for hour 00:00:00 each day.
+2024-11-07 12:23:34,714 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:23:37,375 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:23:39,986 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:23:43,469 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:23:46,255 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:23:48,845 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:23:51,446 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645294, for the current hour.
+2024-11-07 12:23:54,013 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:23:54,831 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be importes for hour 00:00:00 each day.
+2024-11-07 12:23:56,887 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:24:00,306 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:24:00,548 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730978640363_queenContAidonIndex.xml.
+2024-11-07 12:24:00,549 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T13:23:31+01:00.
+2024-11-07 12:24:00,550 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T12:00:00+01:00.
+2024-11-07 12:31:26,270 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 16936 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 12:31:26,276 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 12:31:30,054 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 12:31:30,065 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:31:30,069 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 12:31:30,070 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 12:31:30,253 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 12:31:30,256 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3912 ms
+2024-11-07 12:31:30,373 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 12:31:49,564 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-07 12:31:49,974 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:31:50,003 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 12:31:50,020 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 24.511 seconds (JVM running for 25.206)
+2024-11-07 12:31:50,527 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T11:00:00+01:00.
+2024-11-07 12:31:51,062 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:31:51,063 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:31:51,114 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:31:51,114 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:31:51,164 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:31:51,164 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:31:53,607 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:31:56,638 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:31:59,344 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:01,886 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:17,005 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 20476 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 12:32:17,009 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 12:32:20,845 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 12:32:20,855 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:32:20,859 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 12:32:20,859 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 12:32:21,036 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 12:32:21,039 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3964 ms
+2024-11-07 12:32:21,134 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 12:32:39,690 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-07 12:32:40,107 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:32:40,138 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 12:32:40,154 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 23.892 seconds (JVM running for 24.67)
+2024-11-07 12:32:40,665 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T11:00:00+01:00.
+2024-11-07 12:32:41,019 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 12:32:43,432 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:46,193 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:48,754 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:51,313 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:53,977 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:56,526 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:59,135 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:32:59,183 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645454, for the current hour.
+2024-11-07 12:33:01,486 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:33:02,306 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 12:33:04,097 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:33:06,668 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:33:06,854 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730979186732_queenContAidonIndex.xml.
+2024-11-07 12:33:06,855 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T13:32:40+01:00.
+2024-11-07 12:33:06,855 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T12:00:00+01:00.
+2024-11-07 12:34:27,769 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 8588 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 12:34:27,774 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 12:34:31,728 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 12:34:31,737 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:34:31,741 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 12:34:31,741 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 12:34:31,914 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 12:34:31,914 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4065 ms
+2024-11-07 12:34:32,001 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 12:34:50,837 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-07 12:34:51,240 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:34:51,271 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 12:34:51,285 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 24.265 seconds (JVM running for 24.981)
+2024-11-07 12:34:51,797 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T11:00:00+01:00.
+2024-11-07 12:34:52,317 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:34:52,317 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:34:52,376 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:34:52,376 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:34:52,424 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:34:52,426 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:34:54,511 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:34:57,069 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:34:59,805 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:35:02,494 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:35:05,156 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:35:07,820 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:35:10,373 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:35:12,726 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645263, for the current hour.
+2024-11-07 12:35:13,911 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:35:13,912 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:35:13,961 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:35:13,962 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:35:14,017 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:35:14,018 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:35:15,297 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:35:17,848 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 12:35:18,766 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730979318463_queenContAidonIndex.xml.
+2024-11-07 12:35:18,767 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T13:34:51+01:00.
+2024-11-07 12:35:18,768 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T12:00:00+01:00.
+2024-11-07 12:42:10,847 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 26568 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 12:42:10,852 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 12:42:14,679 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 12:42:14,689 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:42:14,692 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 12:42:14,693 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 12:42:14,853 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 12:42:14,857 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3932 ms
+2024-11-07 12:42:14,956 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 12:42:28,831 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 12:42:29,224 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:42:29,250 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 12:42:29,266 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.148 seconds (JVM running for 19.822)
+2024-11-07 12:42:29,768 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T11:00:00+01:00.
+2024-11-07 12:42:29,851 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 12:42:29,896 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 12:42:29,997 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730979749912_queenContAidonIndex.xml.
+2024-11-07 12:42:29,998 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T13:42:29+01:00.
+2024-11-07 12:42:29,998 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T12:00:00+01:00.
+2024-11-07 12:43:23,158 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 19556 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 12:43:23,163 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 12:43:27,019 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 12:43:27,032 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:43:27,036 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 12:43:27,036 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 12:43:27,209 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 12:43:27,214 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3981 ms
+2024-11-07 12:43:27,309 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 12:43:41,358 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 12:43:41,799 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:43:41,837 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 12:43:41,866 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.461 seconds (JVM running for 20.126)
+2024-11-07 12:43:42,375 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T11:00:00+01:00.
+2024-11-07 12:43:42,624 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:43:42,625 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:43:42,713 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:43:42,714 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:43:42,789 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:43:42,789 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:43:42,995 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:43:42,996 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:43:43,046 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:43:43,047 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:43:43,126 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:43:43,127 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:43:43,266 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730979823141_queenContAidonIndex.xml.
+2024-11-07 12:43:43,267 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T13:43:42+01:00.
+2024-11-07 12:43:43,267 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T12:00:00+01:00.
+2024-11-07 12:45:46,282 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 3564 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 12:45:46,286 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 12:45:50,301 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 12:45:50,315 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:45:50,319 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 12:45:50,319 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 12:45:50,488 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 12:45:50,491 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4133 ms
+2024-11-07 12:45:50,584 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 12:46:04,388 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 12:46:04,827 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:46:04,869 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 12:46:04,885 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.34 seconds (JVM running for 20.063)
+2024-11-07 12:46:05,388 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T11:00:00+01:00.
+2024-11-07 12:46:05,731 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:46:05,732 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:46:05,783 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:46:05,784 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:46:05,834 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:46:05,834 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:46:05,890 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:46:05,891 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:46:05,943 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:46:05,943 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:46:05,992 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:46:05,993 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:46:06,231 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:46:06,231 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:46:06,288 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:46:06,289 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:46:06,342 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:46:06,342 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:46:06,392 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:46:06,392 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:46:06,442 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:46:06,442 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:46:06,494 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:46:06,494 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:46:06,628 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730979966523_queenContAidonIndex.xml.
+2024-11-07 12:46:06,629 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T13:46:05+01:00.
+2024-11-07 12:46:06,630 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T12:00:00+01:00.
+2024-11-07 12:56:00,358 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 7856 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 12:56:00,363 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 12:56:04,187 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 12:56:04,197 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:56:04,201 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 12:56:04,201 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 12:56:04,390 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 12:56:04,393 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3963 ms
+2024-11-07 12:56:04,479 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 12:56:20,330 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 12:56:20,791 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 12:56:20,820 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 12:56:20,839 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 21.242 seconds (JVM running for 21.921)
+2024-11-07 12:56:21,338 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T11:00:00+01:00.
+2024-11-07 12:56:21,715 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:56:21,716 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:56:21,813 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:56:21,814 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:56:21,880 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:56:21,880 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:56:21,938 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:56:21,938 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:56:22,019 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:56:22,019 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:56:22,074 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:56:22,074 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:56:22,326 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:56:22,327 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:56:22,394 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:56:22,395 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:56:22,450 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:56:22,450 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:56:22,498 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 12:56:22,499 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 12:56:22,552 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:56:22,553 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:56:22,600 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 12:56:22,600 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 12:56:22,752 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730980582629_queenContAidonIndex.xml.
+2024-11-07 12:56:22,754 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T13:56:21+01:00.
+2024-11-07 12:56:22,754 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T12:00:00+01:00.
+2024-11-07 13:37:38,853 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 19608 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 13:37:38,857 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 13:37:42,741 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 13:37:42,750 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:37:42,754 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 13:37:42,754 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 13:37:42,924 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 13:37:42,928 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4003 ms
+2024-11-07 13:37:43,025 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 13:38:02,671 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-07 13:38:03,057 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:38:03,083 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 13:38:03,098 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 24.997 seconds (JVM running for 25.772)
+2024-11-07 13:38:03,611 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T12:00:00+01:00.
+2024-11-07 13:38:04,117 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 13:38:06,517 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:09,456 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:12,195 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:14,824 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:17,477 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:20,388 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:23,059 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:25,599 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:25,647 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645300, for the current hour.
+2024-11-07 13:38:26,209 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 13:38:28,062 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:30,919 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 13:38:31,119 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730983111005_queenContAidonIndex.xml.
+2024-11-07 13:38:31,120 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T14:38:03+01:00.
+2024-11-07 13:38:31,120 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T13:00:00+01:00.
+2024-11-07 13:41:23,105 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 27096 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 13:41:23,110 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 13:41:26,964 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 13:41:26,973 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:41:26,977 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 13:41:26,977 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 13:41:27,149 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 13:41:27,152 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3978 ms
+2024-11-07 13:41:27,245 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 13:41:41,050 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 13:41:41,488 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:41:41,522 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 13:41:41,541 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.181 seconds (JVM running for 19.843)
+2024-11-07 13:41:42,052 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T12:00:00+01:00.
+2024-11-07 13:41:42,277 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:41:42,277 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:41:42,331 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 13:41:42,332 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 13:41:42,393 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:41:42,394 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:41:42,537 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:41:42,537 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:41:42,585 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 13:41:42,586 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 13:41:42,635 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:41:42,636 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:41:42,734 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730983302648_queenContAidonIndex.xml.
+2024-11-07 13:41:42,734 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T14:41:42+01:00.
+2024-11-07 13:41:42,734 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T13:00:00+01:00.
+2024-11-07 13:45:00,301 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 17444 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 13:45:00,306 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 13:45:04,178 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 13:45:04,186 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:45:04,190 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 13:45:04,190 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 13:45:04,343 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 13:45:04,346 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3967 ms
+2024-11-07 13:45:04,432 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 13:45:18,406 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 13:45:18,786 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:45:18,815 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 13:45:18,832 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.293 seconds (JVM running for 19.959)
+2024-11-07 13:45:19,340 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T12:00:00+01:00.
+2024-11-07 13:45:19,603 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:45:19,604 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:45:19,657 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 13:45:19,658 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 13:45:19,709 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:45:19,709 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:45:19,886 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:45:19,887 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:45:19,942 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 13:45:19,942 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 13:45:19,991 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:45:19,991 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:45:20,111 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730983520016_queenContAidonIndex.xml.
+2024-11-07 13:45:20,111 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T14:45:19+01:00.
+2024-11-07 13:45:20,112 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T13:00:00+01:00.
+2024-11-07 13:47:50,606 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 3928 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 13:47:50,610 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 13:47:54,636 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 13:47:54,647 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:47:54,651 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 13:47:54,652 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 13:47:54,831 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 13:47:54,834 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4147 ms
+2024-11-07 13:47:54,927 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 13:48:10,394 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 13:48:10,792 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:48:10,822 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 13:48:10,838 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 21.034 seconds (JVM running for 21.801)
+2024-11-07 13:48:11,341 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T12:00:00+01:00.
+2024-11-07 13:48:11,602 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:48:11,603 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:48:11,695 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 13:48:11,696 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 13:48:11,765 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:48:11,765 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:48:11,924 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:48:11,925 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:48:11,984 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 13:48:11,985 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 13:48:12,036 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:48:12,037 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:48:12,150 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730983692069_queenContAidonIndex.xml.
+2024-11-07 13:48:12,150 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T14:48:11+01:00.
+2024-11-07 13:48:12,150 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T13:00:00+01:00.
+2024-11-07 13:52:40,684 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 24928 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 13:52:40,688 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 13:52:44,468 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 13:52:44,479 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:52:44,484 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 13:52:44,484 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 13:52:44,673 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 13:52:44,678 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3917 ms
+2024-11-07 13:52:44,772 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 13:52:58,621 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 13:52:59,042 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 13:52:59,070 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 13:52:59,089 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.133 seconds (JVM running for 19.804)
+2024-11-07 13:52:59,589 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T12:00:00+01:00.
+2024-11-07 13:52:59,841 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:52:59,841 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:52:59,898 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 13:52:59,903 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 13:52:59,964 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:52:59,964 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:53:00,104 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:53:00,104 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:53:00,153 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 13:53:00,153 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 13:53:00,201 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 13:53:00,201 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 13:53:00,279 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730983980212_queenContAidonIndex.xml.
+2024-11-07 13:53:00,280 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T14:52:59+01:00.
+2024-11-07 13:53:00,280 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T13:00:00+01:00.
+2024-11-07 14:04:43,097 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 27352 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:04:43,101 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:04:46,949 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:04:46,960 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:04:46,964 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:04:46,966 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:04:47,138 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:04:47,141 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3972 ms
+2024-11-07 14:04:47,231 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:05:01,442 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:05:01,862 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:05:01,892 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:05:01,913 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.56 seconds (JVM running for 20.225)
+2024-11-07 14:05:02,414 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:05:02,488 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 14:05:02,533 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 14:05:02,635 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730984702544_queenContAidonIndex.xml.
+2024-11-07 14:05:02,635 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:05:02+01:00.
+2024-11-07 14:05:02,636 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 14:05:55,985 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 26920 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:05:55,990 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:05:59,929 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:05:59,943 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:05:59,948 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:05:59,949 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:06:00,128 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:06:00,131 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4070 ms
+2024-11-07 14:06:00,230 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:06:14,255 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:06:14,690 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:06:14,732 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:06:14,745 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.516 seconds (JVM running for 20.184)
+2024-11-07 14:06:15,248 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:06:15,494 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:06:15,495 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:06:15,550 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:06:15,550 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:06:15,602 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:06:15,602 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:06:15,805 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:06:15,806 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:06:15,859 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:06:15,859 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:06:15,918 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:06:15,919 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:06:16,016 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730984775931_queenContAidonIndex.xml.
+2024-11-07 14:06:16,016 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:06:15+01:00.
+2024-11-07 14:06:16,016 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 14:08:16,874 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 19984 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:08:16,878 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:08:20,849 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:08:20,859 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:08:20,861 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:08:20,862 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:08:21,030 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:08:21,030 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4081 ms
+2024-11-07 14:08:21,114 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:08:34,961 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:08:35,341 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:08:35,372 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:08:35,389 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.284 seconds (JVM running for 20.065)
+2024-11-07 14:08:35,893 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:08:36,163 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:08:36,163 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:08:36,211 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:08:36,212 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:08:36,260 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:08:36,261 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:08:36,309 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:08:36,310 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:08:36,361 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:08:36,362 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:08:36,408 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:08:36,408 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:08:36,633 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:08:36,634 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:08:36,684 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:08:36,685 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:08:36,743 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:08:36,744 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:08:36,804 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:08:36,805 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:08:36,853 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:08:36,853 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:08:36,905 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:08:36,905 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:08:37,009 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730984916922_queenContAidonIndex.xml.
+2024-11-07 14:08:37,010 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:08:35+01:00.
+2024-11-07 14:08:37,010 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 14:15:47,234 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 27004 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:15:47,239 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:15:51,103 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:15:51,114 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:15:51,117 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:15:51,118 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:15:51,288 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:15:51,289 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3983 ms
+2024-11-07 14:15:51,382 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:16:06,673 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:16:07,139 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:16:07,167 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:16:07,182 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 20.748 seconds (JVM running for 21.591)
+2024-11-07 14:16:07,686 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:16:07,994 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:16:07,994 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:16:08,056 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:16:08,057 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:16:08,108 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:16:08,109 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:16:08,169 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:16:08,169 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:16:08,219 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:16:08,220 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:16:08,272 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:16:08,273 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:16:08,479 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:16:08,480 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:16:08,546 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:16:08,547 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:16:08,604 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:16:08,605 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:16:08,656 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:16:08,657 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:16:08,712 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:16:08,713 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:16:08,766 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:16:08,767 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:16:08,868 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730985368791_queenContAidonIndex.xml.
+2024-11-07 14:16:08,869 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:16:07+01:00.
+2024-11-07 14:16:08,869 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 14:18:57,607 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 15820 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:18:57,611 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:19:01,650 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:19:01,663 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:19:01,667 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:19:01,668 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:19:01,825 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:19:01,828 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4143 ms
+2024-11-07 14:19:01,914 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:19:17,820 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:19:18,242 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:19:18,288 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:19:18,306 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 21.466 seconds (JVM running for 22.14)
+2024-11-07 14:19:18,810 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:19:19,093 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:19:19,093 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:19:19,153 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:19:19,153 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:19:19,200 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:19:19,201 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:19:19,254 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:19:19,254 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:19:19,302 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:19:19,302 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:19:19,356 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:19:19,356 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:19:19,574 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:19:19,575 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:19:19,624 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:19:19,624 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:19:19,673 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:19:19,673 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:19:19,726 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:19:19,727 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:19:19,784 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:19:19,785 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:19:19,833 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:19:19,834 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:19:19,948 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730985559859_queenContAidonIndex.xml.
+2024-11-07 14:19:19,948 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:19:18+01:00.
+2024-11-07 14:19:19,949 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 14:25:41,787 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 9884 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:25:41,792 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:25:45,551 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:25:45,561 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:25:45,564 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:25:45,565 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:25:45,724 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:25:45,727 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3871 ms
+2024-11-07 14:25:45,813 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:25:59,995 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:26:00,406 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:26:00,444 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:26:00,458 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.427 seconds (JVM running for 20.098)
+2024-11-07 14:26:00,961 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:26:01,281 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:26:01,282 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:26:01,345 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:26:01,346 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:26:01,347 ERROR c.c.a.c.Controller [scheduling-1] Error occurred. Message: Unparseable date: "2024-11-07T12:00Z"
+2024-11-07 14:28:20,785 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 27312 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:28:20,791 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:28:24,715 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:28:24,725 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:28:24,728 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:28:24,729 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:28:24,905 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:28:24,908 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4049 ms
+2024-11-07 14:28:24,992 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:28:39,907 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:28:40,305 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:28:40,342 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:28:40,358 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 20.312 seconds (JVM running for 20.977)
+2024-11-07 14:28:40,860 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:28:41,180 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:28:41,181 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:28:41,235 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:28:41,237 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:28:41,239 ERROR c.c.a.c.Controller [scheduling-1] Error occurred. Message: Unparseable date: "2024-11-07T13:00+01:00"
+2024-11-07 14:30:54,031 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 7912 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:30:54,036 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:30:57,753 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:30:57,763 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:30:57,767 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:30:57,767 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:30:57,930 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:30:57,935 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3827 ms
+2024-11-07 14:30:58,013 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:31:12,677 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:31:13,054 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:31:13,097 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:31:13,111 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.933 seconds (JVM running for 20.663)
+2024-11-07 14:31:13,625 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:31:13,920 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:31:13,921 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:31:13,977 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:31:13,977 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:31:13,978 ERROR c.c.a.c.Controller [scheduling-1] Error occurred. Message: Unparseable date: "2024-11-07T13:00+01:00"
+2024-11-07 14:32:47,377 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 20020 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:32:47,383 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:32:51,151 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:32:51,162 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:32:51,166 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:32:51,166 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:32:51,333 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:32:51,337 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3875 ms
+2024-11-07 14:32:51,428 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:33:06,022 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:33:06,415 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:33:06,445 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:33:06,460 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.858 seconds (JVM running for 20.528)
+2024-11-07 14:33:06,971 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:33:07,312 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:33:07,313 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:33:07,365 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:33:07,365 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:33:07,366 ERROR c.c.a.c.Controller [scheduling-1] Error occurred. Message: Unparseable date: "2024-11-07T13:00+01:00"
+2024-11-07 14:34:38,794 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 27384 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:34:38,799 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:34:42,819 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:34:42,829 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:34:42,832 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:34:42,833 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:34:43,015 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:34:43,021 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4146 ms
+2024-11-07 14:34:43,094 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:34:57,500 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:34:57,884 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:34:57,926 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:34:57,941 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.923 seconds (JVM running for 20.569)
+2024-11-07 14:34:58,452 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:34:58,718 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:34:58,719 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:34:58,788 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:34:58,788 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:34:58,838 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:34:58,838 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:34:58,891 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:34:58,891 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:34:58,943 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:34:58,944 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:34:58,995 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:34:58,996 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:34:59,213 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:34:59,213 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:34:59,266 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:34:59,267 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:34:59,316 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:34:59,316 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:34:59,365 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:34:59,365 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:34:59,416 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:34:59,416 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:34:59,466 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:34:59,467 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:34:59,579 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730986499495_queenContAidonIndex.xml.
+2024-11-07 14:34:59,579 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:34:58+01:00.
+2024-11-07 14:34:59,580 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 14:39:19,526 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 27236 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:39:19,533 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:39:23,415 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:39:23,424 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:39:23,427 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:39:23,428 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:39:23,592 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:39:23,595 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3975 ms
+2024-11-07 14:39:23,675 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:39:39,379 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:39:39,768 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:39:39,798 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:39:39,811 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 21.165 seconds (JVM running for 21.904)
+2024-11-07 14:39:40,323 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:39:40,615 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:39:40,617 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:39:40,667 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:39:40,668 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:39:40,717 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:39:40,717 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:39:40,765 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:39:40,766 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:39:40,813 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:39:40,814 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:39:40,861 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:39:40,862 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:39:41,096 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:39:41,096 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:39:41,144 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:39:41,144 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:39:41,191 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:39:41,192 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:39:41,241 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:39:41,242 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:39:41,291 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:39:41,292 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:39:41,340 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:39:41,340 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:39:41,448 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730986781358_queenContAidonIndex.xml.
+2024-11-07 14:39:41,449 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:39:40+01:00.
+2024-11-07 14:39:41,449 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 14:43:55,862 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 13364 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:43:55,866 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:44:00,016 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:44:00,028 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:44:00,032 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:44:00,032 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:44:00,197 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:44:00,200 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4272 ms
+2024-11-07 14:44:00,279 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:44:15,781 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:44:16,172 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:44:16,218 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:44:16,237 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 21.133 seconds (JVM running for 21.802)
+2024-11-07 14:44:16,743 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:44:17,039 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:44:17,039 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:44:17,089 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:44:17,090 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:44:17,153 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:44:17,154 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:44:17,214 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:44:17,215 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:44:17,264 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:44:17,266 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:44:17,316 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:44:17,316 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:44:17,537 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:44:17,538 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:44:17,603 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:44:17,604 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:44:17,664 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:44:17,664 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:44:17,725 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:44:17,726 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:44:17,775 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:44:17,776 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:44:17,836 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:44:17,837 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:44:17,925 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730987057850_queenContAidonIndex.xml.
+2024-11-07 14:44:17,925 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:44:16+01:00.
+2024-11-07 14:44:17,925 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 14:56:20,281 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 7544 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 14:56:20,285 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 14:56:24,085 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 14:56:24,094 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:56:24,097 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 14:56:24,098 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 14:56:24,265 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 14:56:24,268 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3912 ms
+2024-11-07 14:56:24,359 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 14:56:40,111 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 14:56:40,540 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 14:56:40,568 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 14:56:40,584 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 21.113 seconds (JVM running for 21.866)
+2024-11-07 14:56:41,096 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T13:00:00+01:00.
+2024-11-07 14:56:41,430 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:56:41,431 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:56:41,494 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:56:41,495 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:56:41,543 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:56:41,544 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:56:41,598 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:56:41,598 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:56:41,657 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:56:41,659 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:56:41,712 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:56:41,713 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:56:41,932 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:56:41,933 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:56:41,984 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:56:41,984 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:56:42,032 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:56:42,032 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:56:42,082 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 14:56:42,082 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 14:56:42,133 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:56:42,134 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:56:42,187 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 14:56:42,189 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 14:56:42,301 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730987802216_queenContAidonIndex.xml.
+2024-11-07 14:56:42,302 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T15:56:41+01:00.
+2024-11-07 14:56:42,302 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T14:00:00+01:00.
+2024-11-07 15:01:29,998 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 13080 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:01:30,002 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:01:33,836 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:01:33,845 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:01:33,848 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:01:33,848 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:01:34,010 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:01:34,013 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3938 ms
+2024-11-07 15:01:34,102 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:01:49,462 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 15:01:49,886 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:01:49,927 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:01:49,946 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 20.681 seconds (JVM running for 21.368)
+2024-11-07 15:01:50,453 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:01:50,521 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 15:01:50,564 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 15:01:50,642 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730988110574_queenContAidonIndex.xml.
+2024-11-07 15:01:50,642 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T16:01:50+01:00.
+2024-11-07 15:01:50,643 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T15:00:00+01:00.
+2024-11-07 15:02:52,430 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 19472 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:02:52,436 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:02:56,222 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:02:56,232 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:02:56,235 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:02:56,236 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:02:56,406 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:02:56,409 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3901 ms
+2024-11-07 15:02:56,503 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:03:10,823 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 15:03:11,204 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:03:11,230 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:03:11,246 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.54 seconds (JVM running for 20.208)
+2024-11-07 15:03:11,755 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:03:12,076 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:03:12,077 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:03:12,128 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:03:12,129 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:03:12,129 ERROR c.c.a.c.Controller [scheduling-1] Error occurred. Message: Unparseable date: "2024-11-07T14:00+01:00"
+2024-11-07 15:06:30,506 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 26400 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:06:30,513 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:06:34,201 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:06:34,214 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:06:34,217 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:06:34,218 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:06:34,401 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:06:34,404 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3813 ms
+2024-11-07 15:06:34,495 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:06:48,646 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 15:06:49,019 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:06:49,062 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:06:49,078 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.454 seconds (JVM running for 20.183)
+2024-11-07 15:06:49,592 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:06:49,883 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:06:49,883 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:06:49,887 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+java.lang.IllegalArgumentException: Cannot format given Object as a Date
+	at java.base/java.text.DateFormat.format(DateFormat.java:338)
+	at java.base/java.text.Format.format(Format.java:158)
+	at com.cts.autogen.techyon.api.GetLastIndexForSensor.<init>(GetLastIndexForSensor.java:59)
+	at com.cts.autogen.generator.AidonXMLForIndexes.getLastIndexForSensor(AidonXMLForIndexes.java:169)
+	at com.cts.autogen.generator.AidonXMLForIndexes.getSeg1(AidonXMLForIndexes.java:134)
+	at com.cts.autogen.generator.AidonXMLForIndexes.getSeg0(AidonXMLForIndexes.java:116)
+	at com.cts.autogen.generator.AidonXMLForIndexes.makeTimeSeries(AidonXMLForIndexes.java:102)
+	at com.cts.autogen.generator.AidonXMLForIndexes.<init>(AidonXMLForIndexes.java:74)
+	at com.cts.autogen.controller.Controller.startProgram(Controller.java:78)
+	at com.cts.autogen.controller.Controller.execute(Controller.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-11-07 15:09:40,028 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 22988 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:09:40,033 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:09:44,014 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:09:44,025 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:09:44,028 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:09:44,029 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:09:44,202 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:09:44,205 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4099 ms
+2024-11-07 15:09:44,285 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:09:58,145 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 15:09:58,559 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:09:58,602 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:09:58,617 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 19.404 seconds (JVM running for 20.062)
+2024-11-07 15:09:59,126 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:09:59,463 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:09:59,463 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:09:59,564 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:09:59,565 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:09:59,642 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:09:59,642 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:09:59,699 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:09:59,700 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:09:59,748 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:09:59,749 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:09:59,802 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:09:59,802 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:10:00,108 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:10:00,108 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:10:00,167 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:10:00,168 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:10:00,217 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:10:00,217 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:10:00,281 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:10:00,282 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:10:00,335 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:10:00,335 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:10:00,449 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:10:00,449 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:10:00,550 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730988600464_queenContAidonIndex.xml.
+2024-11-07 15:10:00,550 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T16:09:59+01:00.
+2024-11-07 15:10:00,551 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T15:00:00+01:00.
+2024-11-07 15:13:57,893 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 19256 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:13:57,898 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:14:01,907 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:14:01,927 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:14:01,932 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:14:01,933 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:14:02,088 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:14:02,091 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4120 ms
+2024-11-07 15:14:02,187 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:14:05,817 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 15:14:06,204 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:14:06,231 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:14:06,246 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 9.107 seconds (JVM running for 9.779)
+2024-11-07 15:14:06,758 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:14:07,169 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:14:07,170 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:14:07,243 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:14:07,244 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:14:07,346 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:14:07,347 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:14:07,401 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:14:07,402 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:14:07,463 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:14:07,464 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:14:07,550 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:14:07,551 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:14:07,787 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:14:07,787 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:14:07,860 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:14:07,861 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:14:07,959 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:14:07,960 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:14:08,011 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:14:08,012 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:14:08,072 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:14:08,074 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:14:08,130 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:14:08,132 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:14:08,264 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730988848165_queenContAidonIndex.xml.
+2024-11-07 15:14:08,264 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T16:14:06+01:00.
+2024-11-07 15:14:08,265 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T15:00:00+01:00.
+2024-11-07 15:16:11,281 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 18136 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:16:11,286 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:16:15,208 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:16:15,218 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:16:15,221 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:16:15,222 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:16:15,394 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:16:15,398 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4046 ms
+2024-11-07 15:16:15,487 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:16:19,087 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 15:16:19,482 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:16:19,516 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:16:19,536 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 9.015 seconds (JVM running for 9.687)
+2024-11-07 15:16:20,038 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:16:20,343 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:16:20,343 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:16:20,407 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:16:20,407 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:16:20,458 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:16:20,458 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:16:20,507 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:16:20,508 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:16:20,566 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:16:20,567 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:16:20,622 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:16:20,623 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645928, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:16:20,860 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:16:20,861 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:16:20,910 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:16:20,911 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:16:20,969 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:16:20,970 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:16:21,019 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-07 15:16:21,020 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-07 15:16:21,095 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:16:21,096 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:16:21,154 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-07 15:16:21,154 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087645942, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-07 15:16:21,252 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730988981169_queenContAidonIndex.xml.
+2024-11-07 15:16:21,253 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T16:16:20+01:00.
+2024-11-07 15:16:21,254 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T15:00:00+01:00.
+2024-11-07 15:28:09,397 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 14440 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:28:09,402 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:28:13,425 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:28:13,437 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:28:13,441 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:28:13,441 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:28:13,658 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:28:13,661 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4185 ms
+2024-11-07 15:28:13,739 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:28:17,299 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 2 metering points.
+2024-11-07 15:28:17,720 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:28:17,751 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:28:17,772 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 9.143 seconds (JVM running for 9.873)
+2024-11-07 15:28:18,275 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:28:19,546 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730989699419_queenContAidonIndex.xml.
+2024-11-07 15:28:19,547 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T16:28:18+01:00.
+2024-11-07 15:28:19,547 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T15:00:00+01:00.
+2024-11-07 15:36:59,532 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 15444 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:36:59,536 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:37:03,541 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:37:03,550 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:37:03,553 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:37:03,554 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:37:03,727 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:37:03,730 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4127 ms
+2024-11-07 15:37:03,825 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:37:12,701 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-07 15:37:13,088 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:37:13,119 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:37:13,138 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 14.346 seconds (JVM running for 15.038)
+2024-11-07 15:37:13,644 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:37:14,276 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 15:37:16,396 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:18,989 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:21,542 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:24,108 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:27,202 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:29,320 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645201, for the current hour.
+2024-11-07 15:37:30,398 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:33,543 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:37,137 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:38,901 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 15:37:40,174 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:42,930 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:37:43,097 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730990262970_queenContAidonIndex.xml.
+2024-11-07 15:37:43,098 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T16:37:13+01:00.
+2024-11-07 15:37:43,099 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T15:00:00+01:00.
+2024-11-07 15:40:36,908 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 23780 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-07 15:40:36,912 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-07 15:40:40,714 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-07 15:40:40,723 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:40:40,727 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-07 15:40:40,728 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-07 15:40:40,909 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-07 15:40:40,913 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3926 ms
+2024-11-07 15:40:41,022 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-07 15:40:49,836 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-07 15:40:50,218 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-07 15:40:50,249 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 15:40:50,267 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 14.084 seconds (JVM running for 14.763)
+2024-11-07 15:40:50,771 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-07T14:00:00+01:00.
+2024-11-07 15:40:51,471 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 15:40:53,652 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:40:56,200 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:40:58,864 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:41:01,474 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:41:01,519 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087644945, for the current hour.
+2024-11-07 15:41:03,828 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:41:06,843 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:41:10,258 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:41:13,379 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:41:13,686 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645300, for the current hour.
+2024-11-07 15:41:14,760 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-07 15:41:16,050 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:41:18,707 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-07 15:41:19,376 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1730990479255_queenContAidonIndex.xml.
+2024-11-07 15:41:19,376 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-07T16:40:50+01:00.
+2024-11-07 15:41:19,377 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-07T15:00:00+01:00.

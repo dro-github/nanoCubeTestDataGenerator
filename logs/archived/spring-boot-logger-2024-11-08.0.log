@@ -1,0 +1,109 @@
+2024-11-08 08:37:58,616 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 22228 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-08 08:37:58,621 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-08 08:38:03,177 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-08 08:38:03,193 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 08:38:03,193 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-08 08:38:03,193 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-08 08:38:03,378 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-08 08:38:03,378 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4678 ms
+2024-11-08 08:38:03,495 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-08 08:38:08,828 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-08 08:38:09,282 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 08:38:09,311 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 08:38:09,327 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 11.86 seconds (JVM running for 12.769)
+2024-11-08 08:38:09,829 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-08T07:00:00+01:00.
+2024-11-08 08:38:10,662 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-08 08:38:12,618 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:15,001 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:17,312 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:19,560 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:22,062 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:24,361 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:26,639 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:28,962 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:30,160 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-08 08:38:31,291 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:33,631 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:38:33,847 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1731051513693_queenContAidonIndex.xml.
+2024-11-08 08:38:33,847 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-08T09:38:09+01:00.
+2024-11-08 08:38:33,847 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-08T08:00:00+01:00.
+2024-11-08 08:41:12,112 INFO o.s.b.StartupInfoLogger [main] Starting NanoMeteringPocApplication using Java 11.0.8 on NOLI125045 with PID 22512 (C:\sandbox\nanometeringPOC\target\classes started by ronend in C:\sandbox\nanometeringPOC)
+2024-11-08 08:41:12,112 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-08 08:41:15,601 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-08 08:41:15,616 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-08 08:41:15,623 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-08 08:41:15,623 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-08 08:41:15,795 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-08 08:41:15,795 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3617 ms
+2024-11-08 08:41:15,895 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Initiating map meter to metering point.
+2024-11-08 08:41:20,587 INFO c.c.a.t.a.GetMeterForMeteringPoint [main] Map meter to metering point initiated for 102 metering points.
+2024-11-08 08:41:20,945 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-08 08:41:20,978 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-08 08:41:20,995 INFO o.s.b.StartupInfoLogger [main] Started NanoMeteringPocApplication in 9.635 seconds (JVM running for 10.356)
+2024-11-08 08:41:21,507 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-08T07:00:00+01:00.
+2024-11-08 08:41:22,089 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-08 08:41:23,928 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:26,248 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:28,582 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:30,978 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:33,411 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:34,162 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645560, for the current hour.
+2024-11-08 08:41:35,562 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:37,845 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:40,194 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:41,427 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-08 08:41:42,581 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:44,912 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 08:41:45,101 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1731051704995_queenContAidonIndex.xml.
+2024-11-08 08:41:45,101 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-08T09:41:21+01:00.
+2024-11-08 08:41:45,101 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-08T08:00:00+01:00.
+2024-11-08 09:41:21,536 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-08T08:00:00+01:00.
+2024-11-08 09:41:25,480 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-08 09:41:27,411 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:30,056 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:32,872 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:36,042 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:39,240 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645355, for the current hour.
+2024-11-08 09:41:40,047 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:43,390 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:46,057 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:48,869 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:50,138 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-08 09:41:51,389 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:52,692 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645430, for the current hour.
+2024-11-08 09:41:53,725 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 09:41:53,787 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1731055313765_queenContAidonIndex.xml.
+2024-11-08 09:41:53,788 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-08T10:41:21+01:00.
+2024-11-08 09:41:53,788 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-08T09:00:00+01:00.
+2024-11-08 10:41:21,564 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-08T09:00:00+01:00.
+2024-11-08 10:41:28,514 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:31,477 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:34,022 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:36,732 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:37,728 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645072, for the current hour.
+2024-11-08 10:41:38,953 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:41,921 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:44,749 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:47,303 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:49,899 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645713, for the current hour.
+2024-11-08 10:41:52,392 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 10:41:52,922 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1731058912912_queenContAidonIndex.xml.
+2024-11-08 10:41:52,922 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-08T11:41:21+01:00.
+2024-11-08 10:41:52,922 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-08T10:00:00+01:00.
+2024-11-08 11:41:21,578 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-08T10:00:00+01:00.
+2024-11-08 11:41:25,598 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645928 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-08 11:41:27,623 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:30,173 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:32,776 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:35,948 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:39,353 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:42,204 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:45,024 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:47,148 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087645263, for the current hour.
+2024-11-08 11:41:47,406 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:48,729 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Metering point 707057500087645942 is profile settled. Profile reading will be imported for hour 00:00:00 each day.
+2024-11-08 11:41:50,016 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:52,957 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-08 11:41:53,035 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanometeringPOC\XMLPayload\1731062512988_queenContAidonIndex.xml.
+2024-11-08 11:41:53,035 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-08T12:41:21+01:00.
+2024-11-08 11:41:53,035 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-08T11:00:00+01:00.

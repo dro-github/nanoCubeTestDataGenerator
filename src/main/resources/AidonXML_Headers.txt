@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<axml version="2.0" created="%s" customerId="E2AB1D5F-3FE6-4F84-A47A-3D3C155065E0" xmlns="http://aidon.com/AXML/v2">
+  <exportData>
+%s
+  </exportData>
+</axml>

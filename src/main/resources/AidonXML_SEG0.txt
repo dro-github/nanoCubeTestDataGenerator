@@ -1,0 +1,5 @@
+    <meteringPoint id="%s" device="%s" type="deviceId" utilityType="electricity">
+      <energySeriesData>
+%s
+      </energySeriesData>
+    </meteringPoint>
