@@ -76,7 +76,7 @@ public class GetMeterForMeteringPoint {
         var entity = new HttpEntity<>(null, headers);
         ResponseEntity<String> response;
         try {
-            response = restTemplate.exchange(fullUrl + "?" + payload, HttpMethod.GET, entity, String.class);
+            response = restTemplate.exchange("https://" + fullUrl + "?" + payload, HttpMethod.GET, entity, String.class);
         } catch (Exception e) {
             logger.error("meter = {}: {}", meter, e.getMessage());
             return;
