@@ -28,20 +28,24 @@ public class GetMeterForMeteringPoint {
 
     private void getMeteringPointDeviceConnection() {
         logger.info("Initiating meter to metering point for transformer DRO_NC_KP1");
-        getMeteringPointDeviceConnectionForMeter(75,"DRO_SUB_TS_KP1-0","DRO_SUB_TS_KP1-00");
+        getMeteringPointDeviceConnectionForMeter(0,75,"DRO_SUB_TS_KP1-0","DRO_SUB_TS_KP1-00");
         logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
         logger.info("Initiating meter to metering point for transformer DRO_NC_KP2");
-        getMeteringPointDeviceConnectionForMeter(75,"DRO_SUB_TS_KP2-0","DRO_SUB_TS_KP2-00");
+        getMeteringPointDeviceConnectionForMeter(0,75,"DRO_SUB_TS_KP2-0","DRO_SUB_TS_KP2-00");
         logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
         logger.info("Initiating meter to metering point for transformer HYV_TRAFO_TEST");
-        getMeteringPointDeviceConnectionForMeter(75,"DRO_SUB_TS_HYV-0","DRO_SUB_TS_HYV-00");
+        getMeteringPointDeviceConnectionForMeter(0,75,"DRO_SUB_TS_HYV-0","DRO_SUB_TS_HYV-00");
+        logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
+        getMeteringPointDeviceConnectionForMeter(75,5,"DRO_NAER_KP1-0","N/A");
+        logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
+        getMeteringPointDeviceConnectionForMeter(75,10,"DRO_NAER_KP2-0","N/A");
         logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
     }
 
-    private void getMeteringPointDeviceConnectionForMeter(int numOfMeters, String prefix1, String prefix2) {
+    private void getMeteringPointDeviceConnectionForMeter(int startIndexForMeterID,int numOfMeters, String prefix1, String prefix2) {
         logger.info("Initiating map meter to metering point.");
         String meterPreFix;
-        for (int i = 0; i < numOfMeters; i++) {
+        for (int i = startIndexForMeterID; i < startIndexForMeterID + numOfMeters; i++) {
             meterPreFix = prefix1;
             if (i < 10) {
                 meterPreFix = prefix2;

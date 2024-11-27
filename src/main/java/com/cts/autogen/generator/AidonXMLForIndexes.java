@@ -91,7 +91,7 @@ public class AidonXMLForIndexes {
         int mpCounter = 0;
         Random r = new Random();
         int low = 100;
-        int high = 236;
+        int high = 375;
         int result = r.nextInt(high - low) + low;
         int profileMeteringPointsCounter = 0;
         for (String key : meteringPointToMeter.keySet()) {
@@ -121,7 +121,7 @@ public class AidonXMLForIndexes {
 
     private String getSeg0(String meteringPoint, String device, String settlementMethod) throws ParseException {
         StringBuilder seg_0 = new StringBuilder();
-        String seg1 = getSeg1(meteringPoint, settlementMethod);
+        String seg1 = getSeg1(meteringPoint, settlementMethod,device);
         seg_0.append(String.format(SEG_0, meteringPoint, device, seg1));
         return seg_0.toString();
     }
@@ -133,7 +133,7 @@ public class AidonXMLForIndexes {
         return "60";
     }
 
-    private String getSeg1(String meteringPoint, String settlementMethod) throws ParseException {
+    private String getSeg1(String meteringPoint, String settlementMethod,String device) throws ParseException {
         StringBuilder seg_1 = new StringBuilder();
         String interval = getInterval(settlementMethod);
         int sensorCounter = 0;
@@ -151,7 +151,7 @@ public class AidonXMLForIndexes {
                     startDateTime = startDateTime.plusHours(1);
                 }
                 while (startDateTime.isBefore(ZonedDateTime.now().withMinute(0).withSecond(0).withNano(0))) {
-                    seg_1.append(String.format(SEG_1, interval, productName, sourceRegister,getSeg2(sensorType,settlementMethod)));
+                    seg_1.append(String.format(SEG_1, interval, productName, sourceRegister,getSeg2(sensorType,settlementMethod,device)));
 
                     if (startDateTime.isBefore(ZonedDateTime.now().minusHours(1)) && sensorCounter < 4) {
                         seg_1.append("\n");
@@ -164,7 +164,7 @@ public class AidonXMLForIndexes {
                 }
             } else {
                 startDateTime = ZonedDateTime.now().minusHours(1).withMinute(0).withSecond(0).withNano(0);
-                seg_1.append(String.format(SEG_1, interval, productName, sourceRegister,getSeg2(sensorType,settlementMethod)));
+                seg_1.append(String.format(SEG_1, interval, productName, sourceRegister,getSeg2(sensorType,settlementMethod,device)));
             }
         }
         return seg_1.toString();
@@ -199,22 +199,26 @@ public class AidonXMLForIndexes {
         }
     }
 
-    private String getSeg2(String sensorType, String settlementMethod) {
+    private String getSeg2(String sensorType, String settlementMethod,String device) {
         DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
         StringBuilder seg_2 = new StringBuilder();
         String value_id = valueID.get(sensorType);
         String timestamp = dateFormat.format(startDateTime);//getTimestampForThisTransaction();
-        String value = setValue(sensorType, settlementMethod);
+        String value = setValue(sensorType, settlementMethod,device);
         String quality = "0";
         String unit = "kWh";
         seg_2.append(String.format(SEG_2, value_id, timestamp, value, quality, unit));
         return seg_2.toString();
     }
 
-    private String setValue(String sensorType, String settlementMethod) {
-        //Random r = new Random();
+    private String setValue(String sensorType, String settlementMethod,String device) {
         BigDecimal low = BigDecimal.valueOf(0.5);
-        BigDecimal high = BigDecimal.valueOf(2.75);
+        BigDecimal high = BigDecimal.valueOf(3.75);
+        if (device.contains("_NAER_")){
+            low = low.add(BigDecimal.valueOf(4.5));
+            high = high.add(BigDecimal.valueOf(7.0));
+        }
+
 
         BigDecimal nextVal = low.add(BigDecimal.valueOf(Math.random()).multiply(high.subtract(low))).setScale(3, RoundingMode.CEILING);
         if (settlementMethod.equalsIgnoreCase("Profiled")) {
