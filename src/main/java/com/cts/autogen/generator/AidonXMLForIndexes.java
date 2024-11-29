@@ -114,6 +114,7 @@ public class AidonXMLForIndexes {
                 seg_0.append("\n");
             }
         }
+        logger.info("Aidon transaction completed for {} metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.", mpCounter);
         headers.append(String.format(XMLHEADERS, created, seg_0));
         logger.info("Profile readings will be created for {} profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.", profileMeteringPointsCounter);
         return headers.toString();
