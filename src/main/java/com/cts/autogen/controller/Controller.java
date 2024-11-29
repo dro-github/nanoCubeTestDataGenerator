@@ -83,7 +83,7 @@ public class Controller {
         logger.info("Starting creation of Aidon hourly indexes until {}.",created);
         String xmlAsString = new AidonXMLForIndexes(pathToDropzoneForEnvironment,jdbcTemplate,pathToDropzoneForEnvironment,apiKey,contentType, meterToMeteringPoint,filGapsSinceLastIndex).getFileToPrint();
         //TODO: UploadToDropzone is removed for test purposes. The below line must be uncommented for actual send data and for build for deployment:
-        //new UploadXMLToDropzone(pathToDropzoneForEnvironment,apiKey,contentType,xmlAsString);
+        new UploadXMLToDropzone(pathToDropzoneForEnvironment,apiKey,contentType,xmlAsString);
         Document xmlFile = createXMLFromString(xmlAsString);
         if (printFileToFolder) {
             writeFilesToOutputFolder(xmlFile);
