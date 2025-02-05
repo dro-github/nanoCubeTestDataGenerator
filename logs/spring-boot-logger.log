@@ -494,3 +494,520 @@
 2025-02-05 08:04:32,413 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-02-05 08:04:32,416 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2025-02-05 08:04:32,418 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 09:57:34,483 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 5468 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2025-02-05 09:57:34,494 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-02-05 09:57:35,289 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 09:57:35,321 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2025-02-05 09:57:36,078 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-02-05 09:57:36,087 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-05 09:57:36,091 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-02-05 09:57:36,091 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-05 09:57:36,281 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 09:57:36,281 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1722 ms
+2025-02-05 09:57:36,326 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 09:57:36,639 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 09:57:36,652 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2025-02-05 09:57:36,878 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 09:57:36,948 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-02-05 09:57:37,172 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 09:57:37,318 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-02-05 09:57:37,568 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 09:57:37,583 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 09:57:37,669 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-05 09:57:38,071 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-02-05 09:57:38,104 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-05 09:57:38,118 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 4.389 seconds (JVM running for 5.221)
+2025-02-05 09:57:38,625 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP1
+2025-02-05 09:57:38,627 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 09:57:38,700 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 75 metering points.
+2025-02-05 09:57:38,701 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP2
+2025-02-05 09:57:38,701 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 09:57:38,730 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 150 metering points.
+2025-02-05 09:57:38,730 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer HYV_TRAFO_TEST
+2025-02-05 09:57:38,731 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 09:57:38,745 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 225 metering points.
+2025-02-05 09:57:38,745 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 09:57:38,746 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 230 metering points.
+2025-02-05 09:57:38,747 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 09:57:38,749 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 240 metering points.
+2025-02-05 09:57:38,750 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2025-02-05T08:00:00+01:00.
+2025-02-05 09:57:46,074 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:57:49,613 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:57:53,182 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:57:56,728 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:00,244 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:03,794 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:07,281 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:10,802 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:14,467 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:18,788 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:22,792 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 110 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:26,193 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 120 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:29,524 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 130 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:32,967 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 140 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:36,464 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 150 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:39,906 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 160 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:43,414 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 170 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:46,906 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 180 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:50,428 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 190 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:53,897 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 200 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:58:57,276 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 210 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:59:00,658 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 220 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:59:04,002 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 230 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:59:07,345 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:59:07,346 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 09:59:07,346 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2025-02-05 09:59:07,352 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] Uploading Aidon indexes file to https://queengorg17.staging.techyon.io/dropzone.
+2025-02-05 09:59:07,550 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 09:59:11,189 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669924.
+2025-02-05 09:59:11,190 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 09:59:11,300 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669894.
+2025-02-05 09:59:11,301 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 09:59:11,368 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669801.
+2025-02-05 09:59:11,369 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 09:59:11,480 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1738745951398_nanoCubeTestData_AidonIndex.xml.
+2025-02-05 09:59:11,480 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2025-02-05T10:57:38+01:00.
+2025-02-05 09:59:11,480 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2025-02-05T09:00:00+01:00.
+2025-02-05 10:57:38,689 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP1
+2025-02-05 10:57:38,723 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 10:57:38,782 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 75 metering points.
+2025-02-05 10:57:38,783 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP2
+2025-02-05 10:57:38,783 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 10:57:38,790 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 150 metering points.
+2025-02-05 10:57:38,792 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer HYV_TRAFO_TEST
+2025-02-05 10:57:38,793 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 10:57:38,804 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 225 metering points.
+2025-02-05 10:57:38,804 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 10:57:38,805 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 230 metering points.
+2025-02-05 10:57:38,805 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 10:57:38,806 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 240 metering points.
+2025-02-05 10:57:38,811 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2025-02-05T09:00:00+01:00.
+2025-02-05 10:57:45,588 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:57:49,024 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:57:52,410 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:57:55,808 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:57:59,097 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:02,450 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:05,860 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:09,209 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:12,532 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:15,757 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:19,078 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 110 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:22,433 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 120 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:26,039 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 130 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:30,381 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 140 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:34,545 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 150 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:37,917 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 160 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:41,227 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 170 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:44,530 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 180 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:47,820 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 190 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:51,120 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 200 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:54,498 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 210 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:58:57,818 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 220 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:59:01,123 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 230 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:59:04,409 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:59:04,409 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 10:59:04,410 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2025-02-05 10:59:04,410 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] Uploading Aidon indexes file to https://queengorg17.staging.techyon.io/dropzone.
+2025-02-05 10:59:04,629 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 10:59:07,880 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669924.
+2025-02-05 10:59:07,881 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 10:59:07,974 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669894.
+2025-02-05 10:59:07,975 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 10:59:08,054 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669801.
+2025-02-05 10:59:08,054 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 10:59:08,110 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1738749548083_nanoCubeTestData_AidonIndex.xml.
+2025-02-05 10:59:08,110 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2025-02-05T11:57:38+01:00.
+2025-02-05 10:59:08,112 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2025-02-05T10:00:00+01:00.
+2025-02-05 11:28:15,994 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 11:28:16,005 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 11:28:16,010 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 11:29:19,872 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 10800 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2025-02-05 11:29:19,879 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-02-05 11:29:20,712 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 11:29:20,741 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-02-05 11:29:21,527 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 491 (http)
+2025-02-05 11:29:21,536 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-491"]
+2025-02-05 11:29:21,540 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-02-05 11:29:21,540 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-05 11:29:21,717 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 11:29:21,718 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1754 ms
+2025-02-05 11:29:21,761 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 11:29:22,076 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 11:29:22,093 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2025-02-05 11:29:22,325 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 11:29:22,392 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-02-05 11:29:22,618 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 11:29:22,764 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-02-05 11:29:23,009 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 11:29:23,026 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 11:29:23,106 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-05 11:29:23,502 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-491"]
+2025-02-05 11:29:23,535 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 491 (http) with context path ''
+2025-02-05 11:29:23,548 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 4.482 seconds (JVM running for 5.353)
+2025-02-05 11:29:24,061 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP1
+2025-02-05 11:29:24,061 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 11:29:24,135 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 75 metering points.
+2025-02-05 11:29:24,135 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP2
+2025-02-05 11:29:24,135 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 11:29:24,159 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 150 metering points.
+2025-02-05 11:29:24,160 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer HYV_TRAFO_TEST
+2025-02-05 11:29:24,160 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 11:29:24,177 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 225 metering points.
+2025-02-05 11:29:24,178 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 11:29:24,179 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 230 metering points.
+2025-02-05 11:29:24,180 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 11:29:24,183 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 240 metering points.
+2025-02-05 11:29:24,185 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2025-02-05T10:00:00+01:00.
+2025-02-05 11:29:31,315 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:29:35,144 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:29:39,624 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:29:43,654 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:29:47,111 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:29:50,557 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:29:54,018 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:29:57,354 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:00,785 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:04,231 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:07,634 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 110 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:10,989 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 120 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:14,385 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 130 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:17,711 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 140 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:21,213 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 150 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:24,630 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 160 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:27,902 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 170 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:31,145 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 180 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:34,529 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 190 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:38,398 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 200 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:42,739 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 210 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:46,532 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 220 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:49,952 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 230 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:53,274 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:53,276 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 11:30:53,282 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2025-02-05 11:30:53,296 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] Uploading Aidon indexes file to https://queengorg17.staging.techyon.io/dropzone.
+2025-02-05 11:30:53,613 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 11:30:57,061 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669924.
+2025-02-05 11:30:57,061 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 11:30:57,162 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669894.
+2025-02-05 11:30:57,163 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 11:30:57,222 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669801.
+2025-02-05 11:30:57,222 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 11:30:57,421 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1738751457265_nanoCubeTestData_AidonIndex.xml.
+2025-02-05 11:30:57,422 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2025-02-05T12:29:24+01:00.
+2025-02-05 11:30:57,422 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2025-02-05T11:00:00+01:00.
+2025-02-05 11:31:01,840 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 11:31:01,842 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 11:31:01,845 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 12:14:00,965 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 15140 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2025-02-05 12:14:00,969 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-02-05 12:14:01,742 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 12:14:01,774 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2025-02-05 12:14:02,534 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-02-05 12:14:02,543 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-05 12:14:02,547 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-02-05 12:14:02,547 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-05 12:14:02,744 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 12:14:02,745 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1702 ms
+2025-02-05 12:14:02,789 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 12:14:03,097 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 12:14:03,112 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2025-02-05 12:14:03,341 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 12:14:03,411 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-02-05 12:14:03,627 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 12:14:03,771 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-02-05 12:14:04,002 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 12:14:04,019 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 12:14:04,105 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-05 12:14:04,490 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-02-05 12:14:04,522 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-05 12:14:04,534 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 4.321 seconds (JVM running for 5.061)
+2025-02-05 12:14:05,040 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP1
+2025-02-05 12:14:05,041 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 12:14:05,120 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 75 metering points.
+2025-02-05 12:14:05,121 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP2
+2025-02-05 12:14:05,121 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 12:14:05,143 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 150 metering points.
+2025-02-05 12:14:05,144 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer HYV_TRAFO_TEST
+2025-02-05 12:14:05,144 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 12:14:05,166 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 225 metering points.
+2025-02-05 12:14:05,166 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 12:14:05,168 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 230 metering points.
+2025-02-05 12:14:05,168 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 12:14:05,169 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 240 metering points.
+2025-02-05 12:14:05,171 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2025-02-05T11:00:00+01:00.
+2025-02-05 12:14:12,803 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:17,633 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:21,796 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:25,405 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:28,964 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:32,554 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:36,178 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:39,652 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:43,147 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:46,628 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:50,071 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 110 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:53,557 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 120 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:14:56,960 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 130 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:00,458 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 140 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:03,913 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 150 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:07,487 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 160 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:10,977 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 170 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:14,615 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 180 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:19,130 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 190 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:23,418 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 200 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:26,895 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 210 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:30,322 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 220 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:33,717 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 230 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:37,027 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:37,028 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 12:15:37,028 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2025-02-05 12:15:37,164 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1738754137060_nanoCubeTestData_AidonIndex.xml.
+2025-02-05 12:15:37,165 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2025-02-05T13:14:05+01:00.
+2025-02-05 12:15:37,166 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2025-02-05T12:00:00+01:00.
+2025-02-05 12:15:57,188 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 12:15:57,190 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 12:15:57,193 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 13:05:22,061 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 16192 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2025-02-05 13:05:22,067 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-02-05 13:05:23,098 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 13:05:23,137 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+2025-02-05 13:05:24,010 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-02-05 13:05:24,021 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-05 13:05:24,027 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-02-05 13:05:24,027 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-05 13:05:24,318 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 13:05:24,318 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2157 ms
+2025-02-05 13:05:24,365 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 13:05:24,717 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 13:05:24,734 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2025-02-05 13:05:25,010 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 13:05:25,092 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-02-05 13:05:25,346 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 13:05:25,517 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-02-05 13:05:25,790 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 13:05:25,812 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 13:05:25,901 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-05 13:05:26,360 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-02-05 13:05:26,393 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-05 13:05:26,411 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 5.201 seconds (JVM running for 6.041)
+2025-02-05 13:05:26,912 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP1
+2025-02-05 13:05:26,913 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:05:26,982 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 75 metering points.
+2025-02-05 13:05:26,983 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP2
+2025-02-05 13:05:26,983 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:05:27,006 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 150 metering points.
+2025-02-05 13:05:27,007 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer HYV_TRAFO_TEST
+2025-02-05 13:05:27,014 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:05:27,031 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 225 metering points.
+2025-02-05 13:05:27,032 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:05:27,034 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 230 metering points.
+2025-02-05 13:05:27,035 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:05:27,037 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 240 metering points.
+2025-02-05 13:05:27,039 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2025-02-05T12:00:00+01:00.
+2025-02-05 13:05:34,519 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:05:38,250 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:05:41,853 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:05:45,420 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:05:48,938 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:05:52,503 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:05:56,006 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:05:59,539 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:03,020 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:06,804 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:11,665 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 110 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:16,072 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 120 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:19,694 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 130 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:23,184 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 140 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:26,692 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 150 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:30,159 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 160 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:33,657 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 170 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:37,190 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 180 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:40,799 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 190 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:44,285 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 200 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:47,720 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 210 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:51,217 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 220 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:54,692 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 230 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:58,199 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:58,200 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:06:58,202 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2025-02-05 13:06:58,208 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] Uploading Aidon indexes file to https://queengorg17.staging.techyon.io/dropzone.
+2025-02-05 13:06:58,481 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:07:01,866 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669924.
+2025-02-05 13:07:01,868 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 13:07:01,933 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669894.
+2025-02-05 13:07:01,934 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 13:07:01,993 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669801.
+2025-02-05 13:07:01,994 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:(POST https://queengorg17.staging.techyon.io/api/timeseries) 202
+2025-02-05 13:07:02,229 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1738757222046_nanoCubeTestData_AidonIndex.xml.
+2025-02-05 13:07:02,230 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2025-02-05T14:05:27+01:00.
+2025-02-05 13:07:02,230 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2025-02-05T13:00:00+01:00.
+2025-02-05 13:22:32,245 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 13:22:32,248 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 13:22:32,251 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 13:30:03,753 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 16716 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2025-02-05 13:30:03,758 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-02-05 13:30:04,564 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 13:30:04,593 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-02-05 13:30:05,353 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-02-05 13:30:05,361 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-05 13:30:05,365 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-02-05 13:30:05,365 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-05 13:30:05,553 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 13:30:05,553 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1712 ms
+2025-02-05 13:30:05,602 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 13:30:05,948 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 13:30:05,969 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2025-02-05 13:30:06,229 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 13:30:06,306 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-02-05 13:30:06,564 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 13:30:06,724 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-02-05 13:30:06,960 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 13:30:06,979 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 13:30:07,068 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-05 13:30:07,528 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-02-05 13:30:07,564 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-05 13:30:07,579 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 4.649 seconds (JVM running for 5.463)
+2025-02-05 13:30:08,090 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP1
+2025-02-05 13:30:08,091 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:30:08,158 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 75 metering points.
+2025-02-05 13:30:08,159 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP2
+2025-02-05 13:30:08,159 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:30:08,183 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 150 metering points.
+2025-02-05 13:30:08,183 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer HYV_TRAFO_TEST
+2025-02-05 13:30:08,184 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:30:08,205 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 225 metering points.
+2025-02-05 13:30:08,206 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:30:08,207 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 230 metering points.
+2025-02-05 13:30:08,208 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:30:08,211 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 240 metering points.
+2025-02-05 13:30:08,213 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2025-02-05T12:00:00+01:00.
+2025-02-05 13:30:15,564 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:19,064 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:22,556 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:26,003 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:29,453 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:32,859 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:36,288 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:39,654 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:43,041 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:46,443 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:49,758 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 110 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:53,126 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 120 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:56,450 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 130 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:30:59,808 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 140 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:04,065 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 150 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:08,415 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 160 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:11,751 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 170 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:15,124 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 180 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:18,491 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 190 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:21,834 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 200 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:25,201 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 210 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:28,459 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 220 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:31,827 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 230 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:35,157 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:35,157 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:31:35,158 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2025-02-05 13:31:35,164 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] Uploading Aidon indexes file to https://queengorg17.staging.techyon.io/dropzone.
+2025-02-05 13:31:35,370 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:31:35,585 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669924.
+2025-02-05 13:31:35,585 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:<202,"time series processing started ddb58739-a9ab-4952-971a-78270c4dd053"
+,[content-type:"application/json; charset=UTF-8", vary:"Accept-Encoding", date:"Wed, 05 Feb 2025 12:31:35 GMT", content-length:"70", strict-transport-security:"max-age=63072000; includeSubDomains; preload", x-content-type-options:"nosniff", x-xss-protection:"1; mode=block", x-request-id:"ddb58739-a9ab-4952-971a-78270c4dd053", server:"techyon"]>
+2025-02-05 13:31:35,585 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:31:35,677 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669894.
+2025-02-05 13:31:35,677 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:<202,"time series processing started 75245710-abae-4d9b-96d3-5bc5e1480b5a"
+,[content-type:"application/json; charset=UTF-8", vary:"Accept-Encoding", date:"Wed, 05 Feb 2025 12:31:35 GMT", content-length:"70", strict-transport-security:"max-age=63072000; includeSubDomains; preload", x-content-type-options:"nosniff", x-xss-protection:"1; mode=block", x-request-id:"75245710-abae-4d9b-96d3-5bc5e1480b5a", server:"techyon"]>
+2025-02-05 13:31:35,677 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:31:35,749 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669801.
+2025-02-05 13:31:35,750 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:<202,"time series processing started ce79a394-8e9f-4e33-8dba-60f200dfc8ad"
+,[content-type:"application/json; charset=UTF-8", vary:"Accept-Encoding", date:"Wed, 05 Feb 2025 12:31:35 GMT", content-length:"70", strict-transport-security:"max-age=63072000; includeSubDomains; preload", x-content-type-options:"nosniff", x-xss-protection:"1; mode=block", x-request-id:"ce79a394-8e9f-4e33-8dba-60f200dfc8ad", server:"techyon"]>
+2025-02-05 13:31:35,750 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:31:35,865 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1738758695777_nanoCubeTestData_AidonIndex.xml.
+2025-02-05 13:31:35,865 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2025-02-05T14:30:08+01:00.
+2025-02-05 13:31:35,865 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2025-02-05T13:00:00+01:00.
+2025-02-05 13:33:01,292 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 13:33:01,296 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 13:33:01,299 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 13:33:08,180 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 1724 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2025-02-05 13:33:08,190 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-02-05 13:33:08,979 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 13:33:09,008 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-02-05 13:33:09,765 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-02-05 13:33:09,775 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-05 13:33:09,779 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-02-05 13:33:09,779 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-05 13:33:09,960 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 13:33:09,960 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1706 ms
+2025-02-05 13:33:10,000 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 13:33:10,300 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 13:33:10,316 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2025-02-05 13:33:10,545 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 13:33:10,613 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-02-05 13:33:10,823 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 13:33:10,969 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-02-05 13:33:11,203 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 13:33:11,217 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 13:33:11,297 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-05 13:33:11,692 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-02-05 13:33:11,722 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-05 13:33:11,736 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 4.275 seconds (JVM running for 5.005)
+2025-02-05 13:33:12,255 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP1
+2025-02-05 13:33:12,258 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:33:12,358 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 75 metering points.
+2025-02-05 13:33:12,358 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP2
+2025-02-05 13:33:12,358 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:33:12,385 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 150 metering points.
+2025-02-05 13:33:12,385 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer HYV_TRAFO_TEST
+2025-02-05 13:33:12,385 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:33:12,400 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 225 metering points.
+2025-02-05 13:33:12,401 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:33:12,403 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 230 metering points.
+2025-02-05 13:33:12,403 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2025-02-05 13:33:12,405 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 240 metering points.
+2025-02-05 13:33:12,406 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2025-02-05T12:00:00+01:00.
+2025-02-05 13:33:19,785 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:23,483 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:27,246 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:30,814 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:34,549 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:38,357 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:42,138 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:45,834 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:49,505 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:53,089 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:33:56,549 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 110 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:00,065 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 120 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:03,588 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 130 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:07,233 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 140 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:11,820 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 150 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:15,840 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 160 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:19,347 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 170 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:22,964 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 180 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:26,489 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 190 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:30,065 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 200 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:33,747 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 210 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:37,373 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 220 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:40,872 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 230 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:44,371 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:44,372 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 240 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2025-02-05 13:34:44,372 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2025-02-05 13:34:44,377 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] Uploading Aidon indexes file to https://queengorg17.staging.techyon.io/dropzone.
+2025-02-05 13:34:44,576 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:34:44,787 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669924.
+2025-02-05 13:34:44,787 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:<202,"time series processing started fc8204a6-21fc-4dbc-98fa-b57a82422ca5"
+,[content-type:"application/json; charset=UTF-8", vary:"Accept-Encoding", date:"Wed, 05 Feb 2025 12:34:44 GMT", content-length:"70", strict-transport-security:"max-age=63072000; includeSubDomains; preload", x-content-type-options:"nosniff", x-xss-protection:"1; mode=block", x-request-id:"fc8204a6-21fc-4dbc-98fa-b57a82422ca5", server:"techyon"]>
+2025-02-05 13:34:44,788 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:34:44,852 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669894.
+2025-02-05 13:34:44,852 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:<202,"time series processing started 97488bc3-31d1-4bce-a7d8-b0d79670da75"
+,[content-type:"application/json; charset=UTF-8", vary:"Accept-Encoding", date:"Wed, 05 Feb 2025 12:34:44 GMT", content-length:"70", strict-transport-security:"max-age=63072000; includeSubDomains; preload", x-content-type-options:"nosniff", x-xss-protection:"1; mode=block", x-request-id:"97488bc3-31d1-4bce-a7d8-b0d79670da75", server:"techyon"]>
+2025-02-05 13:34:44,853 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:34:44,933 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] Posting meter data for meteringPoint 707057500087669801.
+2025-02-05 13:34:44,934 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] API response:<202,"time series processing started 2f9669d3-bee1-42a0-90db-2d9912daafec"
+,[content-type:"application/json; charset=UTF-8", vary:"Accept-Encoding", date:"Wed, 05 Feb 2025 12:34:44 GMT", content-length:"70", strict-transport-security:"max-age=63072000; includeSubDomains; preload", x-content-type-options:"nosniff", x-xss-protection:"1; mode=block", x-request-id:"2f9669d3-bee1-42a0-90db-2d9912daafec", server:"techyon"]>
+2025-02-05 13:34:44,934 INFO c.c.a.i.a.PostTimeseriesForMeteringPoint [scheduling-1] RESPONSE = 202 ACCEPTED
+2025-02-05 13:34:45,069 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1738758884964_nanoCubeTestData_AidonIndex.xml.
+2025-02-05 13:34:45,069 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2025-02-05T14:33:12+01:00.
+2025-02-05 13:34:45,071 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2025-02-05T13:00:00+01:00.
+2025-02-05 13:35:00,718 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 13:35:00,720 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 13:35:00,723 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
