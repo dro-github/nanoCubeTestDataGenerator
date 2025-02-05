@@ -1,0 +1,387 @@
+2024-11-25 13:45:22,069 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 9780 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2024-11-25 13:45:22,085 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-25 13:45:23,296 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25 13:45:23,329 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-11-25 13:45:24,299 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-25 13:45:24,320 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-25 13:45:24,330 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-25 13:45:24,331 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-25 13:45:24,528 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-25 13:45:24,529 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2314 ms
+2024-11-25 13:45:24,571 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-25 13:45:24,963 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-25 13:45:24,977 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2024-11-25 13:45:25,235 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25 13:45:25,352 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-25 13:45:25,638 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-25 13:45:25,835 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-11-25 13:45:26,142 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-25 13:45:26,161 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 13:45:26,259 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25 13:45:26,740 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-25 13:45:26,770 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-25 13:45:26,783 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 5.788 seconds (JVM running for 6.742)
+2024-11-25 13:45:27,290 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP1
+2024-11-25 13:45:27,292 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2024-11-25 13:45:27,382 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 75 metering points.
+2024-11-25 13:45:27,382 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer DRO_NC_KP2
+2024-11-25 13:45:27,382 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2024-11-25 13:45:27,410 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 150 metering points.
+2024-11-25 13:45:27,411 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating meter to metering point for transformer HYV_TRAFO_TEST
+2024-11-25 13:45:27,411 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2024-11-25 13:45:27,427 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 225 metering points.
+2024-11-25 13:45:27,427 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2024-11-25 13:45:27,428 INFO c.c.a.d.GetMeteringPointFromDB [scheduling-1] Could not find meter DRO_NÆR_TS_KP1-075 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:45:28,342 INFO c.c.a.d.GetMeteringPointFromDB [scheduling-1] Could not find meter DRO_NÆR_TS_KP1-076 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:45:28,385 INFO c.c.a.d.GetMeteringPointFromDB [scheduling-1] Could not find meter DRO_NÆR_TS_KP1-077 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:45:28,429 INFO c.c.a.d.GetMeteringPointFromDB [scheduling-1] Could not find meter DRO_NÆR_TS_KP1-078 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:45:28,472 INFO c.c.a.d.GetMeteringPointFromDB [scheduling-1] Could not find meter DRO_NÆR_TS_KP1-079 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:45:28,515 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 230 metering points.
+2024-11-25 13:45:28,517 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-25T12:00:00+01:00.
+2024-11-25 13:45:30,560 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 10 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:32,516 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 20 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:34,441 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 30 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:36,417 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 40 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:38,315 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 50 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:38,707 INFO c.c.a.d.GetSettlementMethodFromDB [scheduling-1] Could not find meteringPoint 707057500087672559 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:45:38,867 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:45:38,868 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:45:38,916 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:45:38,916 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:45:38,960 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:45:38,961 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:45:40,597 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 60 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:42,778 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 70 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:44,689 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 80 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:46,590 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 90 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:46,793 INFO c.c.a.d.GetSettlementMethodFromDB [scheduling-1] Could not find meteringPoint 707057500087672764 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:45:46,947 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:45:46,948 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:45:46,993 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:45:46,994 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:45:47,041 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:45:47,041 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:45:48,608 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 100 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:50,844 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 110 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:51,098 INFO c.c.a.d.GetSettlementMethodFromDB [scheduling-1] Could not find meteringPoint 707057500087672740 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:45:51,285 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:45:51,286 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:45:51,333 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:45:51,334 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:45:51,378 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:45:51,378 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:45:53,427 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 120 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:55,934 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 130 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:57,986 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 140 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:45:59,856 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 150 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:01,708 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 160 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:03,547 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 170 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:05,460 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 180 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:07,328 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 190 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:09,044 INFO c.c.a.d.GetSettlementMethodFromDB [scheduling-1] Could not find meteringPoint 707057500087672801 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:46:09,186 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:46:09,187 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:46:09,231 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:46:09,231 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:46:09,277 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:46:09,278 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:46:09,278 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 200 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:11,134 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 210 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:11,502 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Omitting value for metering point 707057500087670616, for the current hour.
+2024-11-25 13:46:12,445 INFO c.c.a.d.GetSettlementMethodFromDB [scheduling-1] Could not find meteringPoint 707057500087672597 in the base of previously checked meters, will try to get details by API call to nanoMetering.
+2024-11-25 13:46:12,608 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:46:12,609 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:46:12,652 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:46:12,654 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:46:12,705 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:46:12,706 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:46:12,885 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 220 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:14,790 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Aidon transaction completed for 230 metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.
+2024-11-25 13:46:14,791 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2024-11-25 13:46:15,015 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1732538774847_nanoCubeTestData_AidonIndex.xml.
+2024-11-25 13:46:15,015 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-25T14:45:28+01:00.
+2024-11-25 13:46:15,015 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-25T13:00:00+01:00.
+2024-11-25 13:46:19,381 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 13:46:19,385 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-25 13:46:19,389 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-25 13:50:09,197 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 6324 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2024-11-25 13:50:09,203 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-25 13:50:10,062 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25 13:50:10,093 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-11-25 13:50:10,901 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-25 13:50:10,912 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-25 13:50:10,918 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-25 13:50:10,918 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-25 13:50:11,113 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-25 13:50:11,113 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1820 ms
+2024-11-25 13:50:11,170 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-25 13:50:11,548 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-25 13:50:11,566 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2024-11-25 13:50:11,890 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25 13:50:11,978 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-25 13:50:12,258 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-25 13:50:12,435 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-11-25 13:50:12,689 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-25 13:50:12,706 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 13:50:12,797 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25 13:50:13,231 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-25 13:50:13,264 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-25 13:50:13,275 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 4.901 seconds (JVM running for 5.651)
+2024-11-25 13:50:13,780 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2024-11-25 13:50:13,822 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 5 metering points.
+2024-11-25 13:50:13,823 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-25T12:00:00+01:00.
+2024-11-25 13:50:14,675 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:14,676 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:14,724 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:14,724 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:14,787 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:14,788 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:14,838 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:14,838 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:15,010 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,011 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,084 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,084 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,287 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,288 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,341 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,342 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,391 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:15,391 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:15,438 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:15,438 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:15,497 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,498 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,545 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,546 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,712 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,713 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,764 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,764 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,814 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:15,815 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:15,865 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:15,866 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:15,916 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,916 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:15,967 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:15,968 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,127 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:16,127 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,176 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:16,176 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,225 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:16,225 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:16,272 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:16,272 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:16,318 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:16,319 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,366 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:16,367 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,525 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:16,525 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,572 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:16,572 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,623 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:16,624 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:16,684 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:50:16,684 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:50:16,743 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:16,744 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,801 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:50:16,802 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:50:16,807 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2024-11-25 13:50:17,132 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1732539016897_nanoCubeTestData_AidonIndex.xml.
+2024-11-25 13:50:17,133 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-25T14:50:13+01:00.
+2024-11-25 13:50:17,133 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-25T13:00:00+01:00.
+2024-11-25 13:50:25,308 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 13:50:25,310 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-25 13:50:25,314 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-25 13:52:20,357 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 16636 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2024-11-25 13:52:20,361 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-25 13:52:21,118 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25 13:52:21,143 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2024-11-25 13:52:21,897 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-25 13:52:21,906 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-25 13:52:21,909 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-25 13:52:21,910 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-25 13:52:22,076 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-25 13:52:22,077 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1646 ms
+2024-11-25 13:52:22,118 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-25 13:52:22,428 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-25 13:52:22,442 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2024-11-25 13:52:22,649 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25 13:52:22,719 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-25 13:52:22,925 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-25 13:52:23,068 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-11-25 13:52:23,300 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-25 13:52:23,316 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 13:52:23,389 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25 13:52:23,768 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-25 13:52:23,798 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-25 13:52:23,809 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 4.198 seconds (JVM running for 4.942)
+2024-11-25 13:52:24,318 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2024-11-25 13:52:24,386 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 5 metering points.
+2024-11-25 13:52:24,388 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-25T12:00:00+01:00.
+2024-11-25 13:52:25,213 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:25,214 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:25,268 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:25,268 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:25,319 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:25,320 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:25,370 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:25,371 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:25,422 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:25,423 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:25,469 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:25,469 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:25,660 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:25,660 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:25,705 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:25,706 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:25,752 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:25,752 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:25,800 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:25,801 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:25,848 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:25,848 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:25,899 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:25,899 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,062 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,062 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,108 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,109 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,155 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:26,156 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:26,209 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:26,210 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:26,263 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,264 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,310 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,311 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,485 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,486 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,535 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,535 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,583 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:26,584 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:26,633 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:26,634 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:26,685 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,685 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,733 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,734 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,894 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,895 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:26,942 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:26,943 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:27,005 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:27,006 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:27,053 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:52:27,053 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:52:27,100 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:27,101 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:27,147 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:52:27,147 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:52:27,149 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2024-11-25 13:52:27,464 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1732539147218_nanoCubeTestData_AidonIndex.xml.
+2024-11-25 13:52:27,465 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-25T14:52:24+01:00.
+2024-11-25 13:52:27,465 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-25T13:00:00+01:00.
+2024-11-25 13:53:33,485 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 13:53:33,488 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-25 13:53:33,491 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-25 13:59:03,426 INFO o.s.b.StartupInfoLogger [main] Starting NanoCubeTestDataGeneratorApplication using Java 21.0.2 on NOLI125045 with PID 11848 (C:\sandbox\nanoCubeTestDataGenerator\target\classes started by ronend in C:\sandbox\nanoCubeTestDataGenerator)
+2024-11-25 13:59:03,443 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-25 13:59:04,247 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25 13:59:04,271 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-11-25 13:59:04,998 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-11-25 13:59:05,007 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-25 13:59:05,010 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-25 13:59:05,011 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-11-25 13:59:05,169 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-25 13:59:05,169 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1645 ms
+2024-11-25 13:59:05,209 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-25 13:59:05,534 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-25 13:59:05,549 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:./database/autogen'
+2024-11-25 13:59:05,791 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25 13:59:05,868 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-25 13:59:06,103 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-25 13:59:06,247 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-11-25 13:59:06,496 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-25 13:59:06,513 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 13:59:06,591 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25 13:59:06,981 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-11-25 13:59:07,013 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-25 13:59:07,030 INFO o.s.b.StartupInfoLogger [main] Started NanoCubeTestDataGeneratorApplication in 4.375 seconds (JVM running for 5.135)
+2024-11-25 13:59:07,544 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Initiating map meter to metering point.
+2024-11-25 13:59:07,602 INFO c.c.a.t.a.GetMeterForMeteringPoint [scheduling-1] Map meter to metering point initiated for 5 metering points.
+2024-11-25 13:59:07,604 INFO c.c.a.c.Controller [scheduling-1] Starting creation of Aidon hourly indexes until 2024-11-25T12:00:00+01:00.
+2024-11-25 13:59:08,646 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:08,646 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:08,706 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:08,707 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:08,770 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:08,771 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:08,830 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:08,831 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:08,891 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:08,892 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:08,960 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:08,960 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672559, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:09,153 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:09,153 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:09,214 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:09,214 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:09,274 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:09,274 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:09,322 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:09,322 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:09,372 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:09,373 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:09,421 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:09,421 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672801, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:09,586 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:09,586 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:09,633 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:09,634 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:09,689 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:09,690 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:09,744 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:09,745 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:09,792 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:09,793 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:09,851 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:09,852 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672597, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,012 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:10,012 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,059 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:10,060 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,110 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:10,110 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:10,161 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:10,161 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:10,213 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:10,213 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,262 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:10,263 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672740, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,443 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:10,444 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,492 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:10,492 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ActiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,539 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:10,540 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:10,596 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous index.
+2024-11-25 13:59:10,597 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Downstream has no previous timestamp.
+2024-11-25 13:59:10,649 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:10,649 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,695 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous index.
+2024-11-25 13:59:10,696 INFO c.c.a.t.a.GetLastIndexForSensor [scheduling-1] Metering point = 707057500087672764, Sensor = ReactiveEnergy, direction = Upstream has no previous timestamp.
+2024-11-25 13:59:10,698 INFO c.c.a.g.AidonXMLForIndexes [scheduling-1] Profile readings will be created for 0 profile metering points only once per day, between 01:00 and 02:00 each night, for the previous day.
+2024-11-25 13:59:10,703 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] Uploading Aidon indexes file to https://queengorg17.staging.techyon.io/dropzone.
+2024-11-25 13:59:10,961 INFO c.c.a.t.a.UploadXMLToDropzone [scheduling-1] RESPONSE = 200 OK
+2024-11-25 13:59:11,259 INFO c.c.a.u.FileOutWriter [scheduling-1] Output written to C:\sandbox\nanoCubeTestDataGenerator\XMLPayload\1732539551028_nanoCubeTestData_AidonIndex.xml.
+2024-11-25 13:59:11,259 INFO c.c.a.c.Controller [scheduling-1] Next scheduled run within 1 hour @timestamp = 2024-11-25T14:59:07+01:00.
+2024-11-25 13:59:11,259 INFO c.c.a.c.Controller [scheduling-1] Next run will create hourly index for all metering points / sensors @timestamp = 2024-11-25T13:00:00+01:00.
+2024-11-25 13:59:20,024 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 13:59:20,026 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-25 13:59:20,029 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

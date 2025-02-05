@@ -1,0 +1,3 @@
+2025-02-03 10:56:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "METER_ID" not found; SQL statement:
+select * from   METER_ID [42102-220]

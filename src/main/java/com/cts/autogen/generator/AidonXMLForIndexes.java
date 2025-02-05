@@ -45,6 +45,11 @@ public class AidonXMLForIndexes {
     private final boolean filGapsSinceLastIndex;
     private final JdbcTemplate jdbcTemplate;
 
+    private BigDecimal gridLossKP1 = BigDecimal.ZERO;
+    private BigDecimal gridLossKP2 = BigDecimal.ZERO;
+    private BigDecimal gridLossHYV = BigDecimal.ZERO;
+
+
     static {
         String Headers_content = null;
         String SEG_0_content = null;
@@ -76,6 +81,7 @@ public class AidonXMLForIndexes {
         this.pathToDropzoneForEnvironment = pathToDropzoneForEnvironment;
         this.apiKey = apiKey;
         this.contentType = contentType;
+        //TODO: Change to 'true' for forcing resend of data for a period with existing data:
         this.filGapsSinceLastIndex = filGapsSinceLastIndex;
         fileToPrint = makeTimeSeries(url,meteringPointToMeter);
     }
@@ -95,6 +101,7 @@ public class AidonXMLForIndexes {
         int result = r.nextInt(high - low) + low;
         int profileMeteringPointsCounter = 0;
         for (String key : meteringPointToMeter.keySet()) {
+            String meter = meteringPointToMeter.get(key);
             String settlementMethod = new GetSettlementMethodForMeteringPoint(url,jdbcTemplate, key).getSettlementMethodString();
             if (settlementMethod.equalsIgnoreCase("Profiled") && ZonedDateTime.now().getHour() != 1) {
                 profileMeteringPointsCounter++;
@@ -103,9 +110,17 @@ public class AidonXMLForIndexes {
             mpCounter++;
             if (mpCounter % result == 0) {
                 logger.info("Omitting value for metering point {}, for the current hour.", key);
+                if (meter.contains("KP1")){
+                    gridLossKP1 = gridLossKP1.add(BigDecimal.valueOf(3.5));
+                }
+                else if (meter.contains("KP2")){
+                    gridLossKP2 = gridLossKP2.add(BigDecimal.valueOf(3.5));
+                }
+                else if (meter.contains("HYV")) {
+                    gridLossHYV = gridLossHYV.add(BigDecimal.valueOf(3.5));
+                }
                 continue;
             }
-            String meter = meteringPointToMeter.get(key);
             seg_0.append(getSeg0(key, meter, settlementMethod));
             if (mpCounter % 10 == 0) {
                 logger.info("Aidon transaction completed for {} metering points. Transaction contains hourly indexes on 4 sensors AE/RE Down/Upstream.", mpCounter);
@@ -219,15 +234,23 @@ public class AidonXMLForIndexes {
             low = low.add(BigDecimal.valueOf(4.5));
             high = high.add(BigDecimal.valueOf(7.0));
         }
-
-
         BigDecimal nextVal = low.add(BigDecimal.valueOf(Math.random()).multiply(high.subtract(low))).setScale(3, RoundingMode.CEILING);
         if (settlementMethod.equalsIgnoreCase("Profiled")) {
             nextVal = nextVal.multiply(new BigDecimal(24));
         }
 
         if (sensorType.equalsIgnoreCase("AEDownstream")) {
+            //TODO: Change the added value to nextVal for "regular" run, or a higher value for overFuseCapacity:
             AEDCurrentIndex = AEDCurrentIndex.add(nextVal);
+            if (device.contains("KP1")){
+                gridLossKP1 = gridLossKP1.add(nextVal);
+            }
+            else if (device.contains("KP2")){
+                gridLossKP2 = gridLossKP2.add(nextVal);
+            }
+            else if (device.contains("HYV")) {
+                gridLossHYV = gridLossHYV.add(nextVal);
+            }
             return String.valueOf(AEDCurrentIndex.setScale(3, RoundingMode.HALF_EVEN));
         } else if (sensorType.equalsIgnoreCase("AEUpstream")) {
             AEUCurrentIndex = BigDecimal.ZERO;
@@ -250,5 +273,21 @@ public class AidonXMLForIndexes {
 
     public String getFileToPrint() {
         return fileToPrint;
+    }
+
+    public BigDecimal getGridLossKP1() {
+        return gridLossKP1;
+    }
+
+    public BigDecimal getGridLossKP2() {
+        return gridLossKP2;
+    }
+
+    public BigDecimal getGridLossHYV() {
+        return gridLossHYV;
+    }
+
+    public ZonedDateTime getStartDateTime() {
+        return startDateTime;
     }
 }

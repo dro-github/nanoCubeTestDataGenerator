@@ -27,17 +27,22 @@ public class GetMeterForMeteringPoint {
     }
 
     private void getMeteringPointDeviceConnection() {
+
         logger.info("Initiating meter to metering point for transformer DRO_NC_KP1");
         getMeteringPointDeviceConnectionForMeter(0,75,"DRO_SUB_TS_KP1-0","DRO_SUB_TS_KP1-00");
         logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
+
         logger.info("Initiating meter to metering point for transformer DRO_NC_KP2");
         getMeteringPointDeviceConnectionForMeter(0,75,"DRO_SUB_TS_KP2-0","DRO_SUB_TS_KP2-00");
         logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
+
         logger.info("Initiating meter to metering point for transformer HYV_TRAFO_TEST");
         getMeteringPointDeviceConnectionForMeter(0,75,"DRO_SUB_TS_HYV-0","DRO_SUB_TS_HYV-00");
         logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
+
         getMeteringPointDeviceConnectionForMeter(75,5,"DRO_NAER_KP1-0","N/A");
         logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
+
         getMeteringPointDeviceConnectionForMeter(75,10,"DRO_NAER_KP2-0","N/A");
         logger.info("Map meter to metering point initiated for {} metering points.",mpToDevice.size());
     }

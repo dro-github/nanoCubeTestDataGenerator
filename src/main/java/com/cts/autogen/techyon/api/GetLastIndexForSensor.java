@@ -28,6 +28,8 @@ public class GetLastIndexForSensor {
         String direction = getDirection(sensorTypeAndDirection);
         String sensorType = getSensorType(sensorTypeAndDirection);
         String payload = "https://" + pathToOpenAPIForEnvironment + "api/measurements?meteringPointId=" + meteringPoint + "&sensorType=" + sensorType + "&requestType=SurroundingIndexes" + "&resolution=PT1H&direction=" + direction;
+        //TODO: For sending data back in time:
+        //String payload = "https://" + pathToOpenAPIForEnvironment + "api/measurements?meteringPointId=" + meteringPoint + "&sensorType=" + sensorType + "&requestType=IndexesInPeriod" + "&resolution=PT1H&direction=" + direction + "&from=2024-11-01T00:00:00&to=2024-11-01T01:00:00";
         if (interval.equalsIgnoreCase("0")){
             payload = "https://" + pathToOpenAPIForEnvironment + "api/measurements?meteringPointId=" + meteringPoint + "&sensorType=" + sensorType + "&requestType=SurroundingIndexes" + "&direction=" + direction;
         }
