@@ -12,13 +12,13 @@ import java.util.List;
 import java.util.Map;
 
 public class CreateAndSendGridLossTimeSeries {
-    public CreateAndSendGridLossTimeSeries(Map<String, BigDecimal> mp2Value, ZonedDateTime startTime) throws Exception {
+    public CreateAndSendGridLossTimeSeries(String habitatURL,String apiKey,Map<String, BigDecimal> mp2Value, ZonedDateTime startTime) throws Exception {
         List<String> payLoadsToPost = new ArrayList<>();
         for (String transformer : mp2Value.keySet()){
             PayLoadArgs thisPayload = new PayLoadArgs(transformer,mp2Value.get(transformer),startTime);
             String jsonPayLoadAsString = new TimeseriesJsonGenerator(thisPayload).getJsonPayloadFromInput();
             payLoadsToPost.add(jsonPayLoadAsString);
         }
-        new PostTimeseriesForMeteringPoint(payLoadsToPost);
+        new PostTimeseriesForMeteringPoint(habitatURL,apiKey,payLoadsToPost);
     }
 }

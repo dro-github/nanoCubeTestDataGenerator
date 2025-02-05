@@ -16,21 +16,21 @@ public class PostTimeseriesForMeteringPoint {
     private static final Logger logger = LoggerFactory.getLogger(BasicConfApp.class);
     static HttpClient client = HttpClient.newBuilder().build();
 
-    public PostTimeseriesForMeteringPoint(List<String> payloadToPost) throws Exception {
+    public PostTimeseriesForMeteringPoint(String habitatUrl,String apiKey,List<String> payloadToPost) throws Exception {
         for (String onePayload : payloadToPost) {
             String meteringPointId = new ReadJsonUtil(onePayload).getMeteringPointId();
-            sendPostRequest(onePayload, meteringPointId);
+            sendPostRequest(habitatUrl,apiKey,onePayload, meteringPointId);
         }
     }
 
-    private void sendPostRequest(String payload, String meteringPointId) throws Exception {
+    private void sendPostRequest(String habitat,String apiKey, String payload, String meteringPointId) throws Exception {
         String contentType = "application/vnd.techyon.measurements-v1+json";
         var request = HttpRequest.newBuilder()
-                .uri(new URI("https://queengorg17.staging.techyon.io/api/timeseries"))
+                .uri(new URI("https://" + habitat + "api/timeseries"))
                 .POST(HttpRequest.BodyPublishers.ofString(payload))
                 .header("Accept", MediaType.APPLICATION_JSON.toString())
                 .header("Content-Type", contentType)
-                .header("Authorization", "ApiKey DFXT9rz6OA")
+                .header("Authorization", apiKey)
                 .build();
         var response = client.send(request, HttpResponse.BodyHandlers.ofString());
         logger.info("Posting meter data for meteringPoint {}.",meteringPointId);

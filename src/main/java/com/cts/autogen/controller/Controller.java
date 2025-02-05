@@ -91,7 +91,7 @@ public class Controller {
         //TODO: UploadToDropzone is removed for test purposes. The below line must be uncommented for actual send data and for build for deployment:
         new UploadXMLToDropzone(pathToDropzoneForEnvironment,apiKey,contentType,xmlAsString);
         Map<String, BigDecimal> mp2Val = initiateMp2Map(aidonXMLForIndexes.getGridLossKP1(),aidonXMLForIndexes.getGridLossKP2(),aidonXMLForIndexes.getGridLossHYV());
-        new CreateAndSendGridLossTimeSeries(mp2Val,aidonXMLForIndexes.getStartDateTime());
+        new CreateAndSendGridLossTimeSeries(pathToDropzoneForEnvironment,apiKey,mp2Val,aidonXMLForIndexes.getStartDateTime());
         Document xmlFile = createXMLFromString(xmlAsString);
         if (printFileToFolder) {
             writeFilesToOutputFolder(xmlFile);
