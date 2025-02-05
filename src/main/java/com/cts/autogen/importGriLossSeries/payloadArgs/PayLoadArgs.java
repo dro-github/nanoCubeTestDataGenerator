@@ -27,8 +27,8 @@ public class PayLoadArgs {
         this.resolution = "PT1H";
         this.direction = "Downstream";
         DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
-        this.from = dateFormat.format(startTime.minusHours(2));
-        this.to = dateFormat.format(startTime.minusHours(1));
+        this.from = dateFormat.format(startTime.minusHours(1));
+        this.to = dateFormat.format(startTime);
         this.origin = "Measured";
         this.meterPointId = meteringPoint;
         this.value = value;
